@@ -1,0 +1,15 @@
+==PROF== Connected to process 11975 (/home/xu.2882/convolution_kernel/yufan-test-kernel/testbed/cudnn-testbed/build/cudnn_ref)
+Input size: 1 X 64 X 29 X 29
+Kernel size: 128 X 64 X 3 X 3
+Output size: 1 X 128 X 27 X 27
+Algorithm: CUDNN_CONVOLUTION_FWD_ALGO_WINOGRAD
+==PROF== Disconnected from process 11975
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","11975","cudnn_ref","127.0.0.1","void cudnn::winograd::generateWinogradTilesKernel<(int)0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<T2, T3>)","2022-Jul-14 12:45:06","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","7,424"
+"0","11975","cudnn_ref","127.0.0.1","void cudnn::winograd::generateWinogradTilesKernel<(int)0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<T2, T3>)","2022-Jul-14 12:45:06","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","7,424"
+"0","11975","cudnn_ref","127.0.0.1","void cudnn::winograd::generateWinogradTilesKernel<(int)0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<T2, T3>)","2022-Jul-14 12:45:06","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","7,424"
+"0","11975","cudnn_ref","127.0.0.1","void cudnn::winograd::generateWinogradTilesKernel<(int)0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<T2, T3>)","2022-Jul-14 12:45:06","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","7,424"
+"1","11975","cudnn_ref","127.0.0.1","volta_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148t_nt_v1","2022-Jul-14 12:45:06","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","32,480"
+"1","11975","cudnn_ref","127.0.0.1","volta_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148t_nt_v1","2022-Jul-14 12:45:06","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","32,480"
+"1","11975","cudnn_ref","127.0.0.1","volta_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148t_nt_v1","2022-Jul-14 12:45:06","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","32,480"
+"1","11975","cudnn_ref","127.0.0.1","volta_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148t_nt_v1","2022-Jul-14 12:45:06","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","32,480"

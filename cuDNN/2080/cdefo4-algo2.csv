@@ -1,0 +1,15 @@
+==PROF== Connected to process 2796280 (/home/yufan/tvm-cudnn-v0.7/cudnn-profile/build/cudnn_ref)
+Input size: 1 X 64 X 56 X 56
+Kernel size: 64 X 64 X 3 X 3
+Output size: 1 X 64 X 54 X 54
+Algorithm: CUDNN_CONVOLUTION_FWD_ALGO_GEMM
+==PROF== Disconnected from process 2796280
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","2796280","cudnn_ref","127.0.0.1","void cudnn::cnn::im2col4d_kernel<float, long>(cudnn::cnn::im2col4d_params, cudnnConvolutionStruct, cudnnTensorStruct, float const*, float*)","2022-Jul-14 08:53:05","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","56,896"
+"0","2796280","cudnn_ref","127.0.0.1","void cudnn::cnn::im2col4d_kernel<float, long>(cudnn::cnn::im2col4d_params, cudnnConvolutionStruct, cudnnTensorStruct, float const*, float*)","2022-Jul-14 08:53:05","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","56,896"
+"0","2796280","cudnn_ref","127.0.0.1","void cudnn::cnn::im2col4d_kernel<float, long>(cudnn::cnn::im2col4d_params, cudnnConvolutionStruct, cudnnTensorStruct, float const*, float*)","2022-Jul-14 08:53:05","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","56,896"
+"0","2796280","cudnn_ref","127.0.0.1","void cudnn::cnn::im2col4d_kernel<float, long>(cudnn::cnn::im2col4d_params, cudnnConvolutionStruct, cudnnTensorStruct, float const*, float*)","2022-Jul-14 08:53:05","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","56,896"
+"1","2796280","cudnn_ref","127.0.0.1","void explicit_convolve_sgemm<float, int, 128, 6, 7, 3, 3, 5, 0, false>(int, int, int, float const*, int, float const*, int, float*, kernel_conv_params, unsigned long long, int, unsigned long long, int, float, float, int, float const*, float const*)","2022-Jul-14 08:53:05","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","96,384"
+"1","2796280","cudnn_ref","127.0.0.1","void explicit_convolve_sgemm<float, int, 128, 6, 7, 3, 3, 5, 0, false>(int, int, int, float const*, int, float const*, int, float*, kernel_conv_params, unsigned long long, int, unsigned long long, int, float, float, int, float const*, float const*)","2022-Jul-14 08:53:05","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","96,384"
+"1","2796280","cudnn_ref","127.0.0.1","void explicit_convolve_sgemm<float, int, 128, 6, 7, 3, 3, 5, 0, false>(int, int, int, float const*, int, float const*, int, float*, kernel_conv_params, unsigned long long, int, unsigned long long, int, float, float, int, float const*, float const*)","2022-Jul-14 08:53:05","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","96,384"
+"1","2796280","cudnn_ref","127.0.0.1","void explicit_convolve_sgemm<float, int, 128, 6, 7, 3, 3, 5, 0, false>(int, int, int, float const*, int, float const*, int, float*, kernel_conv_params, unsigned long long, int, unsigned long long, int, float, float, int, float const*, float const*)","2022-Jul-14 08:53:05","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","96,384"

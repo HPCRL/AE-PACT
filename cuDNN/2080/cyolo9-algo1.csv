@@ -1,0 +1,23 @@
+==PROF== Connected to process 2808314 (/home/yufan/tvm-cudnn-v0.7/cudnn-profile/build/cudnn_ref)
+Input size: 1 X 1024 X 17 X 17
+Kernel size: 512 X 1024 X 1 X 1
+Output size: 1 X 512 X 17 X 17
+Algorithm: CUDNN_CONVOLUTION_FWD_ALGO_IMPLICIT_PRECOMP_GEMM
+==PROF== Disconnected from process 2808314
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","2808314","cudnn_ref","127.0.0.1","void cudnn::ops::nchwToNhwcKernel<float, float, float, false, true, (cudnnKernelDataType_t)0>(cudnn::ops::nchw2nhwc_params_t<float>, float const*, float*)","2022-Jul-14 09:05:26","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","5,888"
+"0","2808314","cudnn_ref","127.0.0.1","void cudnn::ops::nchwToNhwcKernel<float, float, float, false, true, (cudnnKernelDataType_t)0>(cudnn::ops::nchw2nhwc_params_t<float>, float const*, float*)","2022-Jul-14 09:05:26","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","5,888"
+"0","2808314","cudnn_ref","127.0.0.1","void cudnn::ops::nchwToNhwcKernel<float, float, float, false, true, (cudnnKernelDataType_t)0>(cudnn::ops::nchw2nhwc_params_t<float>, float const*, float*)","2022-Jul-14 09:05:26","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","5,888"
+"0","2808314","cudnn_ref","127.0.0.1","void cudnn::ops::nchwToNhwcKernel<float, float, float, false, true, (cudnnKernelDataType_t)0>(cudnn::ops::nchw2nhwc_params_t<float>, float const*, float*)","2022-Jul-14 09:05:26","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","5,888"
+"1","2808314","cudnn_ref","127.0.0.1","void cask_cudnn::computeOffsetsKernel<false, false>(cask_cudnn::ComputeOffsetsParams)","2022-Jul-14 09:05:27","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","2,752"
+"1","2808314","cudnn_ref","127.0.0.1","void cask_cudnn::computeOffsetsKernel<false, false>(cask_cudnn::ComputeOffsetsParams)","2022-Jul-14 09:05:27","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","2,752"
+"1","2808314","cudnn_ref","127.0.0.1","void cask_cudnn::computeOffsetsKernel<false, false>(cask_cudnn::ComputeOffsetsParams)","2022-Jul-14 09:05:27","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","2,752"
+"1","2808314","cudnn_ref","127.0.0.1","void cask_cudnn::computeOffsetsKernel<false, false>(cask_cudnn::ComputeOffsetsParams)","2022-Jul-14 09:05:27","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","2,752"
+"2","2808314","cudnn_ref","127.0.0.1","volta_scudnn_128x32_sliced1x4_ldg4_relu_exp_interior_nhwc_tn_v1","2022-Jul-14 09:05:27","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","63,648"
+"2","2808314","cudnn_ref","127.0.0.1","volta_scudnn_128x32_sliced1x4_ldg4_relu_exp_interior_nhwc_tn_v1","2022-Jul-14 09:05:27","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","63,648"
+"2","2808314","cudnn_ref","127.0.0.1","volta_scudnn_128x32_sliced1x4_ldg4_relu_exp_interior_nhwc_tn_v1","2022-Jul-14 09:05:27","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","63,648"
+"2","2808314","cudnn_ref","127.0.0.1","volta_scudnn_128x32_sliced1x4_ldg4_relu_exp_interior_nhwc_tn_v1","2022-Jul-14 09:05:27","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","63,648"
+"3","2808314","cudnn_ref","127.0.0.1","void cudnn::ops::nhwcToNchwKernel<float, float, float, true, false, (cudnnKernelDataType_t)0>(cudnn::ops::nhwc2nchw_params_t<float>, float const*, float*)","2022-Jul-14 09:05:27","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","5,344"
+"3","2808314","cudnn_ref","127.0.0.1","void cudnn::ops::nhwcToNchwKernel<float, float, float, true, false, (cudnnKernelDataType_t)0>(cudnn::ops::nhwc2nchw_params_t<float>, float const*, float*)","2022-Jul-14 09:05:27","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","5,344"
+"3","2808314","cudnn_ref","127.0.0.1","void cudnn::ops::nhwcToNchwKernel<float, float, float, true, false, (cudnnKernelDataType_t)0>(cudnn::ops::nhwc2nchw_params_t<float>, float const*, float*)","2022-Jul-14 09:05:27","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","5,344"
+"3","2808314","cudnn_ref","127.0.0.1","void cudnn::ops::nhwcToNchwKernel<float, float, float, true, false, (cudnnKernelDataType_t)0>(cudnn::ops::nhwc2nchw_params_t<float>, float const*, float*)","2022-Jul-14 09:05:27","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","5,344"

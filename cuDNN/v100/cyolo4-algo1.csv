@@ -1,0 +1,19 @@
+==PROF== Connected to process 16374 (/home/xu.2882/convolution_kernel/yufan-test-kernel/testbed/cudnn-testbed/build/cudnn_ref)
+Input size: 1 X 128 X 70 X 70
+Kernel size: 256 X 128 X 3 X 3
+Output size: 1 X 256 X 68 X 68
+Algorithm: CUDNN_CONVOLUTION_FWD_ALGO_IMPLICIT_PRECOMP_GEMM
+==PROF== Disconnected from process 16374
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","16374","cudnn_ref","127.0.0.1","void cask_cudnn::computeOffsetsKernel3D<(bool)0>(cask_cudnn::ComputeOffsetsParams)","2022-Jul-14 12:57:46","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","4,608"
+"0","16374","cudnn_ref","127.0.0.1","void cask_cudnn::computeOffsetsKernel3D<(bool)0>(cask_cudnn::ComputeOffsetsParams)","2022-Jul-14 12:57:46","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","4,608"
+"0","16374","cudnn_ref","127.0.0.1","void cask_cudnn::computeOffsetsKernel3D<(bool)0>(cask_cudnn::ComputeOffsetsParams)","2022-Jul-14 12:57:46","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","4,608"
+"0","16374","cudnn_ref","127.0.0.1","void cask_cudnn::computeOffsetsKernel3D<(bool)0>(cask_cudnn::ComputeOffsetsParams)","2022-Jul-14 12:57:46","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","4,608"
+"1","16374","cudnn_ref","127.0.0.1","cask_cudnn::computeBOffsetsKernel(cask_cudnn::ComputeBOffsetsParams)","2022-Jul-14 12:57:46","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","4,160"
+"1","16374","cudnn_ref","127.0.0.1","cask_cudnn::computeBOffsetsKernel(cask_cudnn::ComputeBOffsetsParams)","2022-Jul-14 12:57:46","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","4,160"
+"1","16374","cudnn_ref","127.0.0.1","cask_cudnn::computeBOffsetsKernel(cask_cudnn::ComputeBOffsetsParams)","2022-Jul-14 12:57:46","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","4,160"
+"1","16374","cudnn_ref","127.0.0.1","cask_cudnn::computeBOffsetsKernel(cask_cudnn::ComputeBOffsetsParams)","2022-Jul-14 12:57:46","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","4,160"
+"2","16374","cudnn_ref","127.0.0.1","volta_scudnn_128x32_3dconv_fprop_xregs_large_nn_v1","2022-Jul-14 12:57:46","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","407,072"
+"2","16374","cudnn_ref","127.0.0.1","volta_scudnn_128x32_3dconv_fprop_xregs_large_nn_v1","2022-Jul-14 12:57:46","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","407,072"
+"2","16374","cudnn_ref","127.0.0.1","volta_scudnn_128x32_3dconv_fprop_xregs_large_nn_v1","2022-Jul-14 12:57:46","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","407,072"
+"2","16374","cudnn_ref","127.0.0.1","volta_scudnn_128x32_3dconv_fprop_xregs_large_nn_v1","2022-Jul-14 12:57:46","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","407,072"

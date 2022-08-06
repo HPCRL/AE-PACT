@@ -1,0 +1,11 @@
+==PROF== Connected to process 11822 (/home/xu.2882/convolution_kernel/yufan-test-kernel/testbed/cudnn-testbed/build/cudnn_ref)
+Input size: 1 X 64 X 29 X 29
+Kernel size: 128 X 64 X 3 X 3
+Output size: 1 X 128 X 27 X 27
+Algorithm: CUDNN_CONVOLUTION_FWD_ALGO_IMPLICIT_PRECOMP_GEMM
+==PROF== Disconnected from process 11822
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","11822","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, (int)128, (int)5, (int)5, (int)3, (int)3, (int)3, (int)1, (bool)0, (bool)0, (bool)1>(int, int, int, const T1 *, int, T2 *, const T1 *, kernel_conv_params, unsigned long long, int, float, float, int, const T2 *, const T2 *, bool, int, int)","2022-Jul-14 12:44:47","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","65,024"
+"0","11822","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, (int)128, (int)5, (int)5, (int)3, (int)3, (int)3, (int)1, (bool)0, (bool)0, (bool)1>(int, int, int, const T1 *, int, T2 *, const T1 *, kernel_conv_params, unsigned long long, int, float, float, int, const T2 *, const T2 *, bool, int, int)","2022-Jul-14 12:44:47","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","65,024"
+"0","11822","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, (int)128, (int)5, (int)5, (int)3, (int)3, (int)3, (int)1, (bool)0, (bool)0, (bool)1>(int, int, int, const T1 *, int, T2 *, const T1 *, kernel_conv_params, unsigned long long, int, float, float, int, const T2 *, const T2 *, bool, int, int)","2022-Jul-14 12:44:47","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","65,024"
+"0","11822","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, (int)128, (int)5, (int)5, (int)3, (int)3, (int)3, (int)1, (bool)0, (bool)0, (bool)1>(int, int, int, const T1 *, int, T2 *, const T1 *, kernel_conv_params, unsigned long long, int, float, float, int, const T2 *, const T2 *, bool, int, int)","2022-Jul-14 12:44:47","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","65,024"

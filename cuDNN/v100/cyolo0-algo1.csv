@@ -1,0 +1,15 @@
+==PROF== Connected to process 15289 (/home/xu.2882/convolution_kernel/yufan-test-kernel/testbed/cudnn-testbed/build/cudnn_ref)
+Input size: 1 X 3 X 546 X 546
+Kernel size: 32 X 3 X 3 X 3
+Output size: 1 X 32 X 544 X 544
+Algorithm: CUDNN_CONVOLUTION_FWD_ALGO_IMPLICIT_PRECOMP_GEMM
+==PROF== Disconnected from process 15289
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","15289","cudnn_ref","127.0.0.1","void cask_cudnn::computeOffsetsKernel<(bool)0, (bool)0>(cask_cudnn::ComputeOffsetsParams)","2022-Jul-14 12:53:42","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","6,304"
+"0","15289","cudnn_ref","127.0.0.1","void cask_cudnn::computeOffsetsKernel<(bool)0, (bool)0>(cask_cudnn::ComputeOffsetsParams)","2022-Jul-14 12:53:42","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","6,304"
+"0","15289","cudnn_ref","127.0.0.1","void cask_cudnn::computeOffsetsKernel<(bool)0, (bool)0>(cask_cudnn::ComputeOffsetsParams)","2022-Jul-14 12:53:42","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","6,304"
+"0","15289","cudnn_ref","127.0.0.1","void cask_cudnn::computeOffsetsKernel<(bool)0, (bool)0>(cask_cudnn::ComputeOffsetsParams)","2022-Jul-14 12:53:42","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","6,304"
+"1","15289","cudnn_ref","127.0.0.1","volta_scudnn_128x32_relu_interior_nn_v1","2022-Jul-14 12:53:42","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","97,344"
+"1","15289","cudnn_ref","127.0.0.1","volta_scudnn_128x32_relu_interior_nn_v1","2022-Jul-14 12:53:42","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","97,344"
+"1","15289","cudnn_ref","127.0.0.1","volta_scudnn_128x32_relu_interior_nn_v1","2022-Jul-14 12:53:42","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","97,344"
+"1","15289","cudnn_ref","127.0.0.1","volta_scudnn_128x32_relu_interior_nn_v1","2022-Jul-14 12:53:42","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","97,344"

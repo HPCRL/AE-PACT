@@ -1,0 +1,23 @@
+==PROF== Connected to process 2798499 (/home/yufan/tvm-cudnn-v0.7/cudnn-profile/build/cudnn_ref)
+Input size: 1 X 64 X 58 X 58
+Kernel size: 64 X 64 X 3 X 3
+Output size: 1 X 64 X 56 X 56
+Algorithm: CUDNN_CONVOLUTION_FWD_ALGO_WINOGRAD_NONFUSED
+==PROF== Disconnected from process 2798499
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","2798499","cudnn_ref","127.0.0.1","void cudnn::winograd_nonfused::winogradForwardData4x4<float, float>(cudnn::winograd_nonfused::WinogradDataParams<float, float>)","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","76,928"
+"0","2798499","cudnn_ref","127.0.0.1","void cudnn::winograd_nonfused::winogradForwardData4x4<float, float>(cudnn::winograd_nonfused::WinogradDataParams<float, float>)","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","76,928"
+"0","2798499","cudnn_ref","127.0.0.1","void cudnn::winograd_nonfused::winogradForwardData4x4<float, float>(cudnn::winograd_nonfused::WinogradDataParams<float, float>)","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","76,928"
+"0","2798499","cudnn_ref","127.0.0.1","void cudnn::winograd_nonfused::winogradForwardData4x4<float, float>(cudnn::winograd_nonfused::WinogradDataParams<float, float>)","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","76,928"
+"1","2798499","cudnn_ref","127.0.0.1","void cudnn::winograd_nonfused::winogradForwardFilter4x4<float, float>(cudnn::winograd_nonfused::WinogradFilterParams<float, float>)","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","4,320"
+"1","2798499","cudnn_ref","127.0.0.1","void cudnn::winograd_nonfused::winogradForwardFilter4x4<float, float>(cudnn::winograd_nonfused::WinogradFilterParams<float, float>)","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","4,320"
+"1","2798499","cudnn_ref","127.0.0.1","void cudnn::winograd_nonfused::winogradForwardFilter4x4<float, float>(cudnn::winograd_nonfused::WinogradFilterParams<float, float>)","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","4,320"
+"1","2798499","cudnn_ref","127.0.0.1","void cudnn::winograd_nonfused::winogradForwardFilter4x4<float, float>(cudnn::winograd_nonfused::WinogradFilterParams<float, float>)","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","4,320"
+"2","2798499","cudnn_ref","127.0.0.1","volta_sgemm_64x64_nn","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","126,496"
+"2","2798499","cudnn_ref","127.0.0.1","volta_sgemm_64x64_nn","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","126,496"
+"2","2798499","cudnn_ref","127.0.0.1","volta_sgemm_64x64_nn","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","126,496"
+"2","2798499","cudnn_ref","127.0.0.1","volta_sgemm_64x64_nn","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","126,496"
+"3","2798499","cudnn_ref","127.0.0.1","void cudnn::winograd_nonfused::winogradForwardOutput4x4<float, float>(cudnn::winograd_nonfused::WinogradOutputParams<float, float>)","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","57,152"
+"3","2798499","cudnn_ref","127.0.0.1","void cudnn::winograd_nonfused::winogradForwardOutput4x4<float, float>(cudnn::winograd_nonfused::WinogradOutputParams<float, float>)","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","57,152"
+"3","2798499","cudnn_ref","127.0.0.1","void cudnn::winograd_nonfused::winogradForwardOutput4x4<float, float>(cudnn::winograd_nonfused::WinogradOutputParams<float, float>)","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","57,152"
+"3","2798499","cudnn_ref","127.0.0.1","void cudnn::winograd_nonfused::winogradForwardOutput4x4<float, float>(cudnn::winograd_nonfused::WinogradOutputParams<float, float>)","2022-Jul-14 08:55:20","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","57,152"

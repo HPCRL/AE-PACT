@@ -1,0 +1,11 @@
+==PROF== Connected to process 2798235 (/home/yufan/tvm-cudnn-v0.7/cudnn-profile/build/cudnn_ref)
+Input size: 1 X 64 X 58 X 58
+Kernel size: 64 X 64 X 3 X 3
+Output size: 1 X 64 X 56 X 56
+Algorithm: CUDNN_CONVOLUTION_FWD_ALGO_IMPLICIT_GEMM
+==PROF== Disconnected from process 2798235
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","2798235","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, 128, 6, 7, 3, 3, 5, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_conv_params, unsigned long long, int, float, float, int, float const*, float const*, bool, int, int)","2022-Jul-14 08:55:03","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","112,480"
+"0","2798235","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, 128, 6, 7, 3, 3, 5, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_conv_params, unsigned long long, int, float, float, int, float const*, float const*, bool, int, int)","2022-Jul-14 08:55:03","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","112,480"
+"0","2798235","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, 128, 6, 7, 3, 3, 5, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_conv_params, unsigned long long, int, float, float, int, float const*, float const*, bool, int, int)","2022-Jul-14 08:55:03","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","112,480"
+"0","2798235","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, 128, 6, 7, 3, 3, 5, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_conv_params, unsigned long long, int, float, float, int, float const*, float const*, bool, int, int)","2022-Jul-14 08:55:03","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","112,480"

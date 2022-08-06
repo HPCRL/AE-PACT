@@ -1,0 +1,11 @@
+==PROF== Connected to process 2794515 (/home/yufan/tvm-cudnn-v0.7/cudnn-profile/build/cudnn_ref)
+Input size: 1 X 3 X 110 X 110
+Kernel size: 32 X 3 X 3 X 3
+Output size: 1 X 32 X 108 X 108
+Algorithm: CUDNN_CONVOLUTION_FWD_ALGO_IMPLICIT_PRECOMP_GEMM
+==PROF== Disconnected from process 2794515
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","2794515","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, 1024, 5, 5, 3, 3, 3, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_conv_params, unsigned long long, int, float, float, int, float const*, float const*, bool, int, int)","2022-Jul-14 08:51:32","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","15,264"
+"0","2794515","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, 1024, 5, 5, 3, 3, 3, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_conv_params, unsigned long long, int, float, float, int, float const*, float const*, bool, int, int)","2022-Jul-14 08:51:32","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","15,264"
+"0","2794515","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, 1024, 5, 5, 3, 3, 3, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_conv_params, unsigned long long, int, float, float, int, float const*, float const*, bool, int, int)","2022-Jul-14 08:51:32","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","15,264"
+"0","2794515","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, 1024, 5, 5, 3, 3, 3, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_conv_params, unsigned long long, int, float, float, int, float const*, float const*, bool, int, int)","2022-Jul-14 08:51:32","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","15,264"

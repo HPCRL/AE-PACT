@@ -1,0 +1,23 @@
+==PROF== Connected to process 2808647 (/home/yufan/tvm-cudnn-v0.7/cudnn-profile/build/cudnn_ref)
+Input size: 1 X 1024 X 17 X 17
+Kernel size: 512 X 1024 X 1 X 1
+Output size: 1 X 512 X 17 X 17
+Algorithm: CUDNN_CONVOLUTION_FWD_ALGO_FFT_TILING
+==PROF== Disconnected from process 2808647
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","2808647","cudnn_ref","127.0.0.1","void fft1d_r2c_32<float, float, float2, true, false>(float2*, float const*, int, int3, int3, int2, int2)","2022-Jul-14 09:06:27","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","295,680"
+"0","2808647","cudnn_ref","127.0.0.1","void fft1d_r2c_32<float, float, float2, true, false>(float2*, float const*, int, int3, int3, int2, int2)","2022-Jul-14 09:06:27","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","295,680"
+"0","2808647","cudnn_ref","127.0.0.1","void fft1d_r2c_32<float, float, float2, true, false>(float2*, float const*, int, int3, int3, int2, int2)","2022-Jul-14 09:06:27","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","295,680"
+"0","2808647","cudnn_ref","127.0.0.1","void fft1d_r2c_32<float, float, float2, true, false>(float2*, float const*, int, int3, int3, int2, int2)","2022-Jul-14 09:06:27","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","295,680"
+"1","2808647","cudnn_ref","127.0.0.1","void fft1d_r2c_32<float, float, float2, false, false>(float2*, float const*, int, int3, int3, int2, int2)","2022-Jul-14 09:06:27","1","13","Command line profiler metrics","gpu__time_duration.avg","nsecond","17,248"
+"1","2808647","cudnn_ref","127.0.0.1","void fft1d_r2c_32<float, float, float2, false, false>(float2*, float const*, int, int3, int3, int2, int2)","2022-Jul-14 09:06:27","1","13","Command line profiler metrics","gpu__time_duration.max","nsecond","17,248"
+"1","2808647","cudnn_ref","127.0.0.1","void fft1d_r2c_32<float, float, float2, false, false>(float2*, float const*, int, int3, int3, int2, int2)","2022-Jul-14 09:06:27","1","13","Command line profiler metrics","gpu__time_duration.min","nsecond","17,248"
+"1","2808647","cudnn_ref","127.0.0.1","void fft1d_r2c_32<float, float, float2, false, false>(float2*, float const*, int, int3, int3, int2, int2)","2022-Jul-14 09:06:27","1","13","Command line profiler metrics","gpu__time_duration.sum","nsecond","17,248"
+"2","2808647","cudnn_ref","127.0.0.1","volta_gcgemm_32x32_nt","2022-Jul-14 09:06:27","1","13","Command line profiler metrics","gpu__time_duration.avg","nsecond","226,720"
+"2","2808647","cudnn_ref","127.0.0.1","volta_gcgemm_32x32_nt","2022-Jul-14 09:06:27","1","13","Command line profiler metrics","gpu__time_duration.max","nsecond","226,720"
+"2","2808647","cudnn_ref","127.0.0.1","volta_gcgemm_32x32_nt","2022-Jul-14 09:06:27","1","13","Command line profiler metrics","gpu__time_duration.min","nsecond","226,720"
+"2","2808647","cudnn_ref","127.0.0.1","volta_gcgemm_32x32_nt","2022-Jul-14 09:06:27","1","13","Command line profiler metrics","gpu__time_duration.sum","nsecond","226,720"
+"3","2808647","cudnn_ref","127.0.0.1","void fft1d_c2r_32<float2, float, float, false, true, false, false>(float*, float2 const*, int, int3, int3, int2, int, float, float, float*, float*)","2022-Jul-14 09:06:27","1","13","Command line profiler metrics","gpu__time_duration.avg","nsecond","6,496"
+"3","2808647","cudnn_ref","127.0.0.1","void fft1d_c2r_32<float2, float, float, false, true, false, false>(float*, float2 const*, int, int3, int3, int2, int, float, float, float*, float*)","2022-Jul-14 09:06:27","1","13","Command line profiler metrics","gpu__time_duration.max","nsecond","6,496"
+"3","2808647","cudnn_ref","127.0.0.1","void fft1d_c2r_32<float2, float, float, false, true, false, false>(float*, float2 const*, int, int3, int3, int2, int, float, float, float*, float*)","2022-Jul-14 09:06:27","1","13","Command line profiler metrics","gpu__time_duration.min","nsecond","6,496"
+"3","2808647","cudnn_ref","127.0.0.1","void fft1d_c2r_32<float2, float, float, false, true, false, false>(float*, float2 const*, int, int3, int3, int2, int, float, float, float*, float*)","2022-Jul-14 09:06:27","1","13","Command line profiler metrics","gpu__time_duration.sum","nsecond","6,496"

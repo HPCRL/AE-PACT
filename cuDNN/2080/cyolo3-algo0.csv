@@ -1,0 +1,11 @@
+==PROF== Connected to process 2804992 (/home/yufan/tvm-cudnn-v0.7/cudnn-profile/build/cudnn_ref)
+Input size: 1 X 128 X 136 X 136
+Kernel size: 64 X 128 X 1 X 1
+Output size: 1 X 64 X 136 X 136
+Algorithm: CUDNN_CONVOLUTION_FWD_ALGO_IMPLICIT_GEMM
+==PROF== Disconnected from process 2804992
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","2804992","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, 128, 6, 7, 3, 3, 5, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_conv_params, unsigned long long, int, float, float, int, float const*, float const*, bool, int, int)","2022-Jul-14 09:02:10","1","7","Command line profiler metrics","gpu__time_duration.avg","nsecond","111,552"
+"0","2804992","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, 128, 6, 7, 3, 3, 5, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_conv_params, unsigned long long, int, float, float, int, float const*, float const*, bool, int, int)","2022-Jul-14 09:02:10","1","7","Command line profiler metrics","gpu__time_duration.max","nsecond","111,552"
+"0","2804992","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, 128, 6, 7, 3, 3, 5, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_conv_params, unsigned long long, int, float, float, int, float const*, float const*, bool, int, int)","2022-Jul-14 09:02:10","1","7","Command line profiler metrics","gpu__time_duration.min","nsecond","111,552"
+"0","2804992","cudnn_ref","127.0.0.1","void implicit_convolve_sgemm<float, float, 128, 6, 7, 3, 3, 5, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_conv_params, unsigned long long, int, float, float, int, float const*, float const*, bool, int, int)","2022-Jul-14 09:02:10","1","7","Command line profiler metrics","gpu__time_duration.sum","nsecond","111,552"
