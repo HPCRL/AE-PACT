@@ -6,18 +6,10 @@ R2
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 56896.0, 40320
 l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 2571701.0, 745976
-R3
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 17184.0, 24896
-l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 370979.0, 382358
 R4
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 56064.0, 34848.0
 l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 1535289.0, 823187.0
-R5
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 22944.0, 21536.0
-l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 246662.0, 479706.0
 R6
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 68704.0, 42784
@@ -26,10 +18,6 @@ R7
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 91136.0, 38304.0
 l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 2631732.0, 757730.0
-R8
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 25024.0, 22048.0
-l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 210253.0, 479388.0
 R9
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 87776.0, 45056
@@ -38,10 +26,6 @@ R10
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 100672.0, 39584.0
 l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 3112550.0, 1034881.0
-R11
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 20832.0, 26656.0
-l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 525707.0, 514529.0
 R12
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 273440.0, 73664.0
@@ -58,34 +42,18 @@ YOL3
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 338912.0, 296992
 l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 19017696.0, 7679598
-YOL4
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 69184.0, 102368
-l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 2912328.0, 3461550
 YOL5
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 450848.0, 307264
 l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 14433029.0, 9837920
-YOL6
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 61536.0, 102880
-l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 3070137.0, 1982049
 YOL7
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 499168.0, 315136
 l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 19077607.0, 17832768
-YOL8
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 68256.0, 102688
-l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 3808871.0, 3459684
 YOL9
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 618496.0, 330432.0
 l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 30882791.0, 4900575.0
-YOL10
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 112992.0, 102784.0
-l1tex__data_pipe_lsu_wavefronts_mem_shared.sum, 3834656.0, 3458745.0
 DEF1
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 13472.0, 14208

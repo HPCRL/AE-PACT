@@ -2,24 +2,16 @@ echo "res1"
 python get_duration_ansor_our.py Ansor/ansor_profile-v100/ares1.csv CNNOpt/v100/profile-res/res1.csv
 echo "res2"
 python get_duration_ansor_our.py Ansor/ansor_profile-v100/ares2.csv CNNOpt/v100/profile-res/res2.csv CNNOpt/v100/profile-res/Sres2.csv
-echo "res3"
-python get_duration_ansor_our.py Ansor/ansor_profile-v100/ares3.csv CNNOpt/v100/profile-res/res3.csv CNNOpt/v100/profile-res/Sres3.csv
 echo "res4"
 python get_duration_ansor_our.py Ansor/ansor_profile-v100/ares4.csv CNNOpt/v100/profile-res/res4.csv
-echo "res5"
-python get_duration_ansor_our.py Ansor/ansor_profile-v100/ares5.csv CNNOpt/v100/profile-res/res5.csv
 echo "res6"
 python get_duration_ansor_our.py Ansor/ansor_profile-v100/ares6.csv CNNOpt/v100/profile-res/res6.csv CNNOpt/v100/profile-res/Sres6.csv
 echo "res7"
 python get_duration_ansor_our.py Ansor/ansor_profile-v100/ares7.csv CNNOpt/v100/profile-res/res7.csv
-echo "res8"
-python get_duration_ansor_our.py Ansor/ansor_profile-v100/ares8.csv CNNOpt/v100/profile-res/res8.csv
 echo "res9"
 python get_duration_ansor_our.py Ansor/ansor_profile-v100/ares9.csv CNNOpt/v100/profile-res/res9.csv CNNOpt/v100/profile-res/Sres9.csv
 echo "res10"
 python get_duration_ansor_our.py Ansor/ansor_profile-v100/ares10.csv CNNOpt/v100/profile-res/res10.csv
-echo "res11"
-python get_duration_ansor_our.py Ansor/ansor_profile-v100/ares11.csv CNNOpt/v100/profile-res/res11.csv
 echo "res12"
 python get_duration_ansor_our.py Ansor/ansor_profile-v100/ares12.csv CNNOpt/v100/profile-res/res12.csv
 
@@ -30,20 +22,12 @@ echo "yolo1"
 python get_duration_ansor_our.py Ansor/ansor_profile-v100/ayolo1.csv CNNOpt/v100/profile-res/yolo1.csv CNNOpt/v100/profile-res/Syolo1.csv
 echo "yolo2"
 python get_duration_ansor_our.py Ansor/ansor_profile-v100/ayolo2.csv CNNOpt/v100/profile-res/yolo2.csv CNNOpt/v100/profile-res/Syolo2.csv
-echo "yolo3"
-python get_duration_ansor_our.py Ansor/ansor_profile-v100/ayolo3.csv CNNOpt/v100/profile-res/yolo3.csv CNNOpt/v100/profile-res/Syolo3.csv
 echo "yolo4"
 python get_duration_ansor_our.py Ansor/ansor_profile-v100/ayolo4.csv CNNOpt/v100/profile-res/yolo4.csv CNNOpt/v100/profile-res/Syolo4.csv
-echo "yolo5"
-python get_duration_ansor_our.py Ansor/ansor_profile-v100/ayolo5.csv CNNOpt/v100/profile-res/yolo5.csv CNNOpt/v100/profile-res/Syolo5.csv
 echo "yolo6"
 python get_duration_ansor_our.py Ansor/ansor_profile-v100/ayolo6.csv CNNOpt/v100/profile-res/yolo6.csv CNNOpt/v100/profile-res/Syolo6.csv
-echo "yolo7"
-python get_duration_ansor_our.py Ansor/ansor_profile-v100/ayolo7.csv CNNOpt/v100/profile-res/yolo7.csv CNNOpt/v100/profile-res/Syolo7.csv
 echo "yolo8"
 python get_duration_ansor_our.py Ansor/ansor_profile-v100/ayolo8.csv CNNOpt/v100/profile-res/yolo8.csv
-echo "yoll9"
-python get_duration_ansor_our.py Ansor/ansor_profile-v100/ayolo9.csv CNNOpt/v100/profile-res/yolo9.csv
 
 echo "defo1"
 python get_duration_ansor_our.py Ansor/ansor_profile-v100/adefo0.csv CNNOpt/v100/profile-res/defo0.csv CNNOpt/v100/profile-res/Sdefo0.csv

@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.patches
 from matplotlib.legend_handler import HandlerTuple
-
+import math
 
 def drawline(cudnn_data,ansor_data, cnnopt_data, anstp,lname, figname):
     # relative speedup
@@ -43,7 +43,8 @@ def drawline(cudnn_data,ansor_data, cnnopt_data, anstp,lname, figname):
 
 
     ax1.tick_params(axis='y', labelsize=20)
-    ax1.set_ylim(0, 2)
+    maxy = math.ceil(max(cnnopt_data))
+    ax1.set_ylim(0, maxy)
     plt.xticks(x + width / 4, x_label)
 
     plt.tick_params(axis='x', which='major', labelsize=20)

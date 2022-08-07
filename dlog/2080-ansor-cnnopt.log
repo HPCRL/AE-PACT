@@ -4,33 +4,21 @@ Duration(ns), 50144.0, 44384.0
 res2
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 45696.0, 44832.0
-res3
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 10368.0, 21216.0
 res4
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 31616.0, 32000.0
-res5
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 9152.0, 20960.0
 res6
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 74688.0, 44672.0
 res7
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 47360.0, 33312.0
-res8
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 16672.0, 21312.0
 res9
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 91200.0, 47552.0
 res10
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 80032.0, 43424.0
-res11
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 16448.0, 25152.0
 res12
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 116288.0, 66528.0
@@ -43,27 +31,15 @@ Duration(ns), 368992.0, 317152.0
 yolo2
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 398016.0, 301280.0
-yolo3
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 64896.0, 141024.0
 yolo4
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 368160.0, 326656.0
-yolo5
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 68064.0, 100768.0
 yolo6
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 356416.0, 326816.0
-yolo7
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 82208.0, 102400.0
 yolo8
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 512832.0, 346144.0
-yoll9
-MM, Ansor-abs, CNNOpt-abs
-Duration(ns), 124096.0, 102016.0
 defo1
 MM, Ansor-abs, CNNOpt-abs
 Duration(ns), 8736.0, 10176.0

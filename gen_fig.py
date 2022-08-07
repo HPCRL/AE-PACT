@@ -1,26 +1,10 @@
+from platform import machine
 import subprocess
 import os
 import sys
 import math
 
 from bar import drawline
-
-def get_duration_log(filePathOutput):
-    try:
-        os.makedirs(filePathOutput, exist_ok=True)
-        res = subprocess.run("bash compare-ansor-cnnopt-2080.sh >"+ filePathOutput+"2080-ansor-cnnopt.log", shell=True, timeout=100.0, cwd=os.getcwd())
-        if res.returncode != 0: print("bash failed")
-        
-        res = subprocess.run("bash compare-ansor-cnnopt-v100.sh >"+ filePathOutput+"v100-ansor-cnnopt.log", shell=True, timeout=100.0, cwd=os.getcwd())
-        if res.returncode != 0: print("bash failed")
-
-        res = subprocess.run("python get_duration_cudnn.py 2080 >"+ filePathOutput+"2080-cudnn.log", shell=True, timeout=100.0, cwd=os.getcwd())
-        if res.returncode != 0: print("bash failed")
-
-        res = subprocess.run("python get_duration_cudnn.py v100 >"+ filePathOutput+"v100-cudnn.log", shell=True, timeout=100.0, cwd=os.getcwd())
-        if res.returncode != 0: print("bash failed")
-    except Exception as e:
-        print("failure in compile", e)
 
 
 def get_ansor_cnnopt_res_table(filePathOutput, machinelabel):
@@ -137,11 +121,13 @@ def cal_anstp(lname, ansor_data_list):
 
 if __name__ == '__main__':
     path = os.getcwd()
-    get_duration_log(path+'/dlog/')
-    ansor_cnnopt_res_list = get_ansor_cnnopt_res_table(path+'/dlog/', "2080")
-    cudnn_res_list = get_cudnn_res_table(path+'/dlog/', "2080")
 
-    assert len(ansor_cnnopt_res_list) == len(cudnn_res_list)
+    machinelabel = sys.argv[1]
+    network = sys.argv[2]
+
+    ansor_cnnopt_res_list = get_ansor_cnnopt_res_table(path+'/dlog/', machinelabel)
+    cudnn_res_list = get_cudnn_res_table(path+'/dlog/', machinelabel)
+
 
     for i in range(0, len(ansor_cnnopt_res_list)):
         for xx in cudnn_res_list:
@@ -151,4 +137,4 @@ if __name__ == '__main__':
     
 
     #print(ansor_cnnopt_res_list)
-    prepare_fig_data("defo", "2080", ansor_cnnopt_res_list)
+    prepare_fig_data(network, machinelabel, ansor_cnnopt_res_list)
