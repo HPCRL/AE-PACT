@@ -27,8 +27,8 @@ def dipict_correlation(block_list, label, machine_name):
             asmwv_v_list.append(float(b.asmwv))
             aduration_v_list.append(float(b.adr)*1000)
 
-        regress(smwv_v_list, duration_v_list, label+"an", machine_name)
-        regress(asmwv_v_list, aduration_v_list, label+"our", machine_name)
+        regress(smwv_v_list, duration_v_list, label+"ansor", machine_name)
+        regress(asmwv_v_list, aduration_v_list, label+"cnnopt", machine_name)
 
 
 
@@ -95,8 +95,8 @@ if __name__ == '__main__':
     # ansor_file = input("Enter ansor profile: ")
     # rs_file = input("Enter RS profile: ")
     # s_file = input("Enter S profile: ")
-    block_list = process_out("out-v100.log")
-    block_list1 = process_out("out-2080.log")
+    block_list = process_out("sm-v100.log")
+    block_list1 = process_out("sm-2080.log")
     #label = sys.argv[1]
     dipict_correlation(block_list, "SMWV", "v100")
     dipict_correlation(block_list1, "SMWV", "2080")

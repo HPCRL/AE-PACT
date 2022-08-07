@@ -44,10 +44,7 @@ def regress(y, x, label, machine_name):
             self.format = '%.1f'  # Show 2 decimals
     custom_formatter = MyScalarFormatter(useMathText=True)
     ax.yaxis.set_major_formatter(custom_formatter)
-    # ax.yaxis.major.formatter.set_powerlimits((2, 2))
-    # axs[1,2].yaxis.major.formatter.set_scientific(True)  # Redundant: True is default
 
-    # plt.axvline(x=1, color='gray', linestyle='-',linewidth='2.5')
     #plt.show()
     fig.savefig(machine_name+ label+'.pdf')
     plt.close(fig)

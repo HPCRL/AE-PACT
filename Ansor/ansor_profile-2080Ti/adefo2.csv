@@ -57,7 +57,7 @@ Gflops inf
 "0","3009249","Defo2","127.0.0.1","default_function_kernel0","2022-Jun-13 12:26:23","1","7","GPU Speed Of Light","Elapsed Cycles","cycle","37,343",
 "0","3009249","Defo2","127.0.0.1","default_function_kernel0","2022-Jun-13 12:26:23","1","7","GPU Speed Of Light","Memory [%]","%","31.78",
 "0","3009249","Defo2","127.0.0.1","default_function_kernel0","2022-Jun-13 12:26:23","1","7","GPU Speed Of Light","SOL DRAM","%","2.80",
-"0","3009249","Defo2","127.0.0.1","default_function_kernel0","2022-Jun-13 12:26:23","1","7","GPU Speed Of Light","Duration","nsecond","26,912",
+"0","3009249","Defo2","127.0.0.1","default_function_kernel0","2022-Jun-13 12:26:23","1","7","GPU Speed Of Light","Duration","nsecond","27,488",
 "0","3009249","Defo2","127.0.0.1","default_function_kernel0","2022-Jun-13 12:26:23","1","7","GPU Speed Of Light","SOL L1/TEX Cache","%","42.15",
 "0","3009249","Defo2","127.0.0.1","default_function_kernel0","2022-Jun-13 12:26:23","1","7","GPU Speed Of Light","Waves Per SM","","0.26",
 "0","3009249","Defo2","127.0.0.1","default_function_kernel0","2022-Jun-13 12:26:23","1","7","GPU Speed Of Light","SOL L2 Cache","%","15.41",

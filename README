@@ -1,0 +1,10 @@
+1. Performance figure
+run python gen_fig.py
+
+2. Execution and Shared Memory correlation
+-i) generate log file from profiling output
+    bash sm-cor-2080.sh > sm-2080.log
+    bash sm-cor-v100.sh > sm-v100.log
+-ii) check two log files ("sm-v100.log", "sm-2080.log") are generated;
+    run python script to generate correlation figures(2080SMWVansor/v100SMWVansor/2080SMWVcnnopt/v100SMWVcnnopt.pdf) and pearson's R
+    python SM_correlation.py 

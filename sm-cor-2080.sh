@@ -1,5 +1,3 @@
-# echo "RESNET"
-
 echo "R1"
 python get_sm_ansor_our.py Ansor/ansor_profile-2080Ti/ares1.csv CNNOpt/2080Ti/profile-res/res1.csv
 echo "R2"

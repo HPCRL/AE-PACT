@@ -39,6 +39,7 @@ def get_res(path):
 
 def print_res(res_table, num_tables):
     print_header = True
+
     for k, v in sorted(res_table[0].items()):
         if num_tables == 2:
             if print_header:
