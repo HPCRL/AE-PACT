@@ -1,23 +1,34 @@
-We provide all experiment data and code executables
-
 1. Performance figure
-run bash script s
--i) "bash gen_profile_duration_log.sh"
-Generate duration logs from raw nsight(ncu) results
-Please double check if dlog has been generated.
--ii) "bash all_fig.sh"
+run bash scripts under the root of the project
+-i) Run "bash gen_profile_duration_log.sh"
+Generate duration logs from raw nsight(ncu) results.
+Please double check if dlog has been generated. dlog contains intermediate result for generating the figure in the step ii)
+-ii) Run "bash all_fig.sh"
 The bash script generates 6 figures to show the throughtput speedup in 3 networks over two devices.
 
 
 2. Execution and Shared Memory correlation
--i) generate log file from profiling output
+-i) Generate log file from profiling output and Run scripts
    "bash sm-cor-2080.sh > sm-2080.log"
    "bash sm-cor-v100.sh > sm-v100.log"
--ii) check two log files ("sm-v100.log", "sm-2080.log") are generated;
-    run python script to generate correlation figures(2080SMWVansor/v100SMWVansor/2080SMWVcnnopt/v100SMWVcnnopt.pdf) and pearson's R
+-ii) Check two log files ("sm-v100.log", "sm-2080.log") are generated;
+    Run python script to generate correlation figures(2080SMWVansor/v100SMWVansor/2080SMWVcnnopt/v100SMWVcnnopt.pdf) and pearson's R
     "python SM_correlation.py "
 
 
+[Optional] 
+For recollecting profile raw data 
+Under Ansor folder, we provides the source code and profiling harness in "Ansor/src_code_2080" and "Ansor/src_code_v100" for 2 machines.
+Since Ansor an is auto-tuning based tool, it generates different source code in different machines. 
+-i) Evaluator needs to change CMakelist.txt and set correct environment path
+-ii) Create a build/ folder and compile source codes to generate executables and double check if each problem size has one executable.
+-iii) Run p_tvm_all.sh to recollect profiling data 
+-iv) All new generated raw profiling data(a*.csv) is under build/ folder
+-v) Copy *.csv and replace raw profiling data under "Ansor/ansor_profile-*" corresponding to different machines
 
-
-
+Under cuDNN folder, we provides the source code and profiling harness in "cuDNN/src_code/".
+-i) Evaluator needs to set correct environment path in export_env.sh file to link nvcc and cuDNN library
+-ii) Evaluator needs to change CMakelist.txt and build an executable "./cudnn_ref" under build/ folder
+-iii) Run cudnn_profile.sh to recollect profiling data 
+-iv) All new generated raw profiling data(c*-algo-*.csv) is under build/ folder
+-v) Copy *.csv and replace raw profiling data under "cuDNN/profile-*" corresponding to different machines

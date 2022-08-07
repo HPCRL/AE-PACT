@@ -1,0 +1,3 @@
+export CUDACXX=...
+export CC=..
+export CXX=..

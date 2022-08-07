@@ -82,6 +82,6 @@ def get_fastest_gemm(res_table):
 
 if __name__ == '__main__':
     machine_label = sys.argv[1]
-    cudnn_folder = "cuDNN/"+machine_label+"/"
+    cudnn_folder = "cuDNN/profile-"+machine_label+"/"
     process_f(cudnn_folder)
     get_fastest_gemm(res_table)
