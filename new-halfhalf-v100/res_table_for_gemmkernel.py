@@ -1,0 +1,494 @@
+import os
+import math
+import copy
+
+import numpy as np
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn import tree
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, AdaBoostRegressor
+
+from utilfunc import table_view, random_order_csv, preapre_line_data, intersection
+from utildataprepare import prepare_validate_set, prepare_indp_test_set
+
+def avg_LOP_precision(truth_topN_list, predict_topN_real_time_list, topN):
+    truth_topN_list.sort()
+    predict_topN_real_time_list.sort()
+
+
+    sum_truth = sum(truth_topN_list) # toN real/ground time
+    sum_predict = sum(predict_topN_real_time_list) # sorted based on sc --> time
+    avg_lop = (sum_predict-sum_truth)/sum_truth
+
+    True_positive_num = intersection(truth_topN_list, predict_topN_real_time_list)
+    precision = len(True_positive_num) / topN
+
+
+    # print("True_positive_num", True_positive_num, len(True_positive_num))
+    # print("topN", topN)
+    # print("precision", precision)
+    # print("avg_lop", avg_lop)
+    return avg_lop, precision
+
+def LOP_summary(df, topN, trial_name):
+    # make 2 copy of the output df and sorted seperatly
+    df_sort_by_truth = df.copy(deep=True)
+    df_sort_by_predict = df.copy(deep=True)
+
+    df_sort_by_predict = df_sort_by_predict.sort_values(by=["Predict"])
+    df_sort_by_truth = df_sort_by_truth.sort_values(by=["Time"])
+
+
+    truth_topN_list = df_sort_by_truth["Time"][0:topN]
+    predict_topN_real_time_list = df_sort_by_predict["Time"][0:topN]
+    min_actual_time = min(truth_topN_list)
+    min_predict_time_top = min(predict_topN_real_time_list)
+
+    abs_lop = min_predict_time_top - min_actual_time
+    LOP = abs_lop / min_actual_time
+
+    # print("df\n", df)
+    # print("df_sort_by_predict\n", df_sort_by_predict.iloc[0:topN,:])
+    # print("df_sort_by_truth\n", df_sort_by_truth.iloc[0:topN,:])
+    # print("truth_topN_list \n", truth_topN_list)
+    # print("predict_topN_real_time_list\n", predict_topN_real_time_list)
+    # print("-- trial_name- LOP", trial_name, LOP)
+    avg_lop, precision = avg_LOP_precision(truth_topN_list.tolist(), predict_topN_real_time_list.tolist(), topN)
+    # print("trial_name", trial_name)
+    # print("truth_topN_list \n", df_sort_by_truth[:][0:topN])
+    # print("predict_topN_real_time_list \n", df_sort_by_predict[:][0:topN])
+
+    return (trial_name, truth_topN_list, predict_topN_real_time_list, df_sort_by_predict)
+
+def LOP_summary_for_validate(df, topN):
+    df_sort_by_truth = df.copy(deep=True)
+    df_sort_by_predict = df.copy(deep=True)
+
+    df_sort_by_predict = df_sort_by_predict.sort_values(by=["Predict"])
+    df_sort_by_truth = df_sort_by_truth.sort_values(by=["Time"])
+
+
+    truth_topN_list = df_sort_by_truth["Time"][0:topN]
+    predict_topN_real_time_list = df_sort_by_predict["Time"][0:topN]
+
+    
+
+    min_actual_time = min(truth_topN_list)
+    min_predict_time_top = min(predict_topN_real_time_list)
+    abs_lop = min_predict_time_top - min_actual_time
+    LOP = abs_lop / min_actual_time
+
+    # print("--------------------------")
+    # # print("df_sort_by_predict", df_sort_by_predict)
+    # # print("df_sort_by_truth", df_sort_by_truth)
+    # # print("truth_topN_list \n", truth_topN_list)
+    # # print("predict_topN_real_time_list\n", predict_topN_real_time_list)
+    # print("LOP ", LOP)
+    # print("===========================")
+
+    return LOP
+
+def LOP_summary_random(df, topN, trial_name):
+    # make 2 copy of the output df and sorted seperatly
+    df_sort_by_truth = df.copy(deep=True)
+    df_shuffle = df.copy(deep=True)
+  
+    np.random.seed(17)
+    random_shuffle = df_shuffle["Time"].tolist()
+    np.random.shuffle(random_shuffle)
+    df_sort_by_truth = df_sort_by_truth.sort_values(by=["Time"])
+
+    truth_topN_list = df_sort_by_truth["Time"][0:topN]
+    predict_topN_real_time_list = random_shuffle[0:topN]
+    min_actual_time = min(truth_topN_list)
+    min_predict_time_top = min(predict_topN_real_time_list)
+
+    abs_lop = min_predict_time_top - min_actual_time
+    LOP = abs_lop / min_actual_time
+
+    # print("df\n", df)
+    # print("df_sort_by_predict\n", random_shuffle[0:topN])
+    # print("df_sort_by_truth\n", df_sort_by_truth.iloc[0:topN,:])
+    # print("truth_topN_list \n", truth_topN_list)
+    # print("predict_topN_real_time_list\n", predict_topN_real_time_list)
+    # print("-- trial_name- LOP", trial_name, LOP)
+    #avg_lop, precision = avg_LOP_precision(truth_topN_list.tolist(), predict_topN_real_time_list.tolist(), topN)
+
+
+    return (trial_name, LOP, 0, 0)
+
+def get_Top_n_config(df, topN, trial_name):
+    # make 2 copy of the output df and sorted seperatly
+    df_sort_by_predict = df.copy(deep=True)
+    df_sort_by_predict = df_sort_by_predict.sort_values(by=["Predict"])
+    top_n_config = df_sort_by_predict[df.columns[0:14]][0:topN]
+    #print("predict_topN_real_time_list\n", top_n_config)
+    return top_n_config, topN
+
+
+def add_features(K, H, C, S, Stride, T_p, T_k, T_c, W_p, W_k, W_c, B_p, B_k, B_c, TILE_C, alt, machine_info):
+    maxRegSM = machine_info['maxRegSM'] 
+    maxWordsOfSharedMemorySM = machine_info['maxWordsOfSharedMemorySM']
+    maxWarpsSM = machine_info['maxWarpsSM']
+    num_of_SM = machine_info['num_of_SM']
+
+    W = H
+    R = S
+    P = W*H
+    warpsPerBlock = (B_p * B_k * B_c)
+
+    blockCountP = P / (T_p * W_p * B_p)
+    blockCountK = K / (T_k * W_k * B_k)
+    num_TB = (blockCountP * blockCountK)
+
+    memTileP = T_p * W_p * B_p
+    memTileK = T_k * W_k * B_k
+
+    sharedMemoryIn = memTileP * TILE_C
+    sharedMemoryKern = memTileK * TILE_C
+        
+    # DV G-->S
+    G2S_input = num_TB * math.ceil(sharedMemoryIn * C / TILE_C / 32)
+    G2S_kernel = num_TB * math.ceil(sharedMemoryKern * C /TILE_C / 32)
+
+    # DV S-->reg
+    S2R_input = T_p * warpsPerBlock * num_TB * C /2    # vect 2 load 
+    S2R_kernel = T_k * warpsPerBlock * num_TB * C /2
+
+   
+    totalShared = (sharedMemoryIn + sharedMemoryKern)
+    registersUsed_per_thread = ((T_p * T_k + T_p + T_k)+20)
+
+    registersUsed_per_thread = min(registersUsed_per_thread, 255)
+    totalRegistersUsedBlock = registersUsed_per_thread * 32 * warpsPerBlock
+    totalRegistersUsedBlock = min(maxRegSM, totalRegistersUsedBlock)
+
+    blocksPerSMWarps = int(maxWarpsSM / warpsPerBlock)
+    blocksPerSMSharedMemory = int(maxWordsOfSharedMemorySM / totalShared)
+    blocksPerSMReg = int(maxRegSM / totalRegistersUsedBlock)
+
+    #print(blocksPerSMReg, blocksPerSMSharedMemory, blocksPerSMWarps)
+    blocksPerSM = min(blocksPerSMWarps, blocksPerSMSharedMemory, blocksPerSMReg)
+    warpsPerSM = warpsPerBlock * blocksPerSM
+    # theo occupancy
+    occupancy = warpsPerSM / (maxWarpsSM * 1.0)
+    recp_occupancy = 1 / occupancy
+
+    # wave
+    wave = 1.0 * num_TB / num_of_SM
+    cwave = math.ceil(wave)
+    c_over_w = cwave / wave
+    correct_wave = 1.0 * num_TB / num_of_SM / blocksPerSM
+    conc_tb = num_TB / correct_wave / num_of_SM
+
+
+    G2S_trans = G2S_input+G2S_kernel
+    S2R_trans = S2R_input+S2R_kernel
+    Ops = H * W * R * S * C * K
+
+
+    if alt == 1:
+        return [K, H, C, S, Stride, T_p, T_k, T_c, W_p, W_k, W_c, B_p, B_k, B_c, TILE_C]
+    # if alt == 2:
+    #     return [K, H, C, S, Stride, T_p, T_k, T_c, W_p, W_k, W_c, B_p, B_k, B_c, TILE_C, Ops, G2S_trans, S2R_trans, recp_occupancy, correct_wave, conc_tb]
+    if alt == 2:
+        return [K, H, C, S, Stride, T_p, T_k, T_c, W_p, W_k, W_c, B_p, B_k, B_c, TILE_C, Ops, G2S_trans, S2R_trans, recp_occupancy, correct_wave, conc_tb,warpsPerBlock, num_TB, totalShared, totalRegistersUsedBlock]
+
+
+def expand_csv(file, alt, stride, if_train, if_norm, pass_norm_factor, machine_info):
+    filename = os.path.splitext(file)[0]
+    print("-------------------------handling ", filename)
+   
+    new_header = ""
+    # manually register feature set here and also add_features()
+    if alt == 1:
+        new_header = "K, H, C, S, Stride, T_p, T_k, T_c, W_p, W_k, W_c, B_p, B_k, B_c, TILE_C, Time "
+    # if alt == 2:  # problem sizes, stride, tile sizes, OPs, GM-transactions, SM-transactions,
+    #     new_header = "K, H, C, S, Stride, T_p, T_k, T_c, W_p, W_k, W_c, B_p, B_k, B_c, TILE_C, Ops, G2S_trans, S2R_trans, recp_occupancy, correct_wave, conc_tb,Time"
+    if alt == 2:
+        new_header = "K, H, C, S, Stride, T_p, T_k, T_c, W_p, W_k, W_c, B_p, B_k, B_c, TILE_C, Ops, G2S_trans, S2R_trans, recp_occupancy, correct_wave, conc_tb, warpsPerBlock, num_TB, totalShared, totalRegistersUsedBlock, Time"
+
+
+
+    row_list = []
+    ss = 0
+    Error_flag = False
+    for l in open(file):
+        if Error_flag:
+            Error_flag = False      # Skip nextline()
+            continue
+        if ss == 0:  # skip header
+            ss += 1
+            continue
+        if "," not in l or "Error" in l:    # skip error
+            Error_flag = True
+            continue
+        cur_list = l.split(",")
+        K = int(cur_list[0])
+        H = int(cur_list[1])
+        W = int(cur_list[2])
+        C = int(cur_list[3])
+        R = int(cur_list[4])
+        T_p = int(cur_list[5])
+        T_k = int(cur_list[6])
+        T_c =  int(cur_list[7])
+        W_p = int(cur_list[8])
+        W_k = int(cur_list[9])
+        W_c = int(cur_list[10])
+        B_p = int(cur_list[11]) 
+        B_k = int(cur_list[12])
+        B_c = int(cur_list[13])
+        Tile_C = int(cur_list[14])
+
+
+        new_features = add_features(K, H, C, R, stride, T_p, T_k, T_c, W_p, W_k, W_c, B_p, B_k, B_c, 
+                                    Tile_C, alt, machine_info)
+
+        new_features.append(float(cur_list[15]) * 1000)  # promote it to micro-sec
+        row_list.append(new_features)
+
+    assert new_header != "", "expand csv fails"
+    new_header_list = new_header.split(",")
+    new_header_list = [item.strip() for item in new_header_list]
+    #print (new_header_list)
+    df = pd.DataFrame(columns=new_header_list, data=row_list)
+
+    norm_factor = {}
+    if if_norm and if_train:        #normalize and handle training set
+        for i in new_header_list:
+            col_list = df[i].to_list()
+            min_val = min(col_list)
+            max_val = max(col_list)
+            if min_val != max_val:
+                col_list = [(float(item)-min_val)/(1.0 * max_val-min_val) for item in col_list]
+            
+            for elem in range(0, len(col_list)):   # avoid 0 and give a tiny tiny value
+                if col_list[elem] == 0:
+                    col_list[elem] = 1e-15
+
+            df[i] = col_list
+            norm_factor[i] = [min_val, max_val]     
+            
+    elif if_norm and not if_train: # normalize and handle test set
+        for i in new_header_list:
+            col_list = df[i].to_list()
+            min_val = pass_norm_factor[i][0]
+            max_val = pass_norm_factor[i][1]
+            if min_val != max_val:
+                col_list = [(float(item)-min_val)/(1.0 * max_val-min_val) for item in col_list]
+            for elem in range(0, len(col_list)):   # avoid 0 and give a tiny tiny value
+                if col_list[elem] == 0:
+                    col_list[elem] = 1e-15
+            df[i] = col_list
+    
+    return norm_factor, df # return normalize_factor and expaned df
+
+def gen_res_table(path, model_dict, stride, if_norm,  machine_info,  topN, step, initN, algo_list, algo_name):  # ab path
+    #algo_list = [LinearRegression(), tree.DecisionTreeRegressor(random_state=17, max_depth = 20), RandomForestRegressor(random_state=17, max_depth = 20), AdaBoostRegressor(random_state=17),  GradientBoostingRegressor(random_state=17, max_depth = 20)]
+    #algo_list = [ tree.DecisionTreeRegressor(random_state=17), RandomForestRegressor(random_state=17), ]
+    #algo_name = ["DecisionTreeRegressor", "RandomForestRegressor"]
+    
+    alt_list = [1,2]
+    
+    summary = {}
+    all_summary = {}
+
+    #regresson
+    for alt in alt_list:
+        for file in os.listdir(path):
+            if file.endswith(".csv") and file.startswith("Reg."):
+                filename = os.path.splitext(file)[0]
+                print("~~ alt : ", alt)
+
+
+                # 3-level dict
+                if filename not in summary.keys():
+                    summary[filename]= {}
+                if alt not in summary[filename].keys():
+                    summary[filename][alt] = []
+
+                # process test data for a new features set
+                _, test_expand_df = expand_csv(os.path.join(path, file), alt, stride, False, if_norm, None, machine_info)
+                 
+                
+                norm_str = "norm" if if_norm else ""
+                for al_name in algo_name:
+                    trial_name = al_name + "_alt" + str(alt) + "_"+norm_str
+                    model_name = model_dict[alt][al_name][0]
+                    model = model_dict[alt][al_name][1]
+
+                    x_test = test_expand_df.iloc[:, :-1].values
+                    y_test = test_expand_df.iloc[:, -1].values      #ground truth
+
+      
+                    y_pred = model.predict(x_test)
+
+                    # generate df -- [Features, TurthTime, PredictScore]
+                    out_df = test_expand_df.copy(deep=True)
+                    out_df["Predict"] = y_pred
+
+
+                    for tp in range(initN, topN+1, step):
+                        summary = {}
+                        if tp not in all_summary.keys():
+                            # 3-level dict
+                            if filename not in summary.keys():
+                                summary[filename]= {}
+                            if alt not in summary[filename].keys():
+                                summary[filename][alt] = []
+                            #out_df.to_csv("output_"+ filename + "_" +trial_name + str(tp) +".csv")
+                            lop_tuple= LOP_summary(out_df, tp, trial_name)
+                            # print("tp not in", tp)
+                            # print(all_summary)
+                            summary[filename][alt].append(lop_tuple)
+                            all_summary[tp] = (summary)
+                        else:
+                            #out_df.to_csv("output_"+ filename + "_" +trial_name + str(tp) +".csv")
+                            lop_tuple= LOP_summary(out_df, tp, trial_name)
+                            # print("tp in", tp)
+                            summary = all_summary[tp]
+                            if filename not in summary.keys():
+                                summary[filename]= {}
+                            if alt not in summary[filename].keys():
+                                summary[filename][alt] = []
+                            # print(temp)
+                            # here has some issues
+                            summary[filename][alt].append(lop_tuple)
+                        
+
+    
+    return all_summary
+
+def Gemm_buildML(dirpath, machine_info,  topN, step, initN, train_set_file, indepent_test_set_file, split_ratio, list_random_state, algo_list, algo_name,template_name):
+    print("working path ", dirpath)
+    assert len(list_random_state) > 0
+    
+
+    stride = 1
+    #algo_list = [LinearRegression(), tree.DecisionTreeRegressor(random_state=17, max_depth = 20), RandomForestRegressor(random_state=17, max_depth = 20), AdaBoostRegressor(random_state=17),  GradientBoostingRegressor(random_state=17, max_depth = 20)]
+    
+    # algo_list = [ tree.DecisionTreeRegressor(random_state=19), RandomForestRegressor(random_state=19), ]
+    # algo_name = ["DecisionTreeRegressor", "RandomForestRegressor"]
+    
+    alt_list = [1,2]
+    
+    """
+    {alt1 -- {algo_name: best model }
+          |- {algo_name: best model }
+     alt2 -- {algo_name: best model }
+          |- {algo_name: best model }
+    }
+    """
+    all_model_dict = {}
+
+    if_norm = False
+
+    #regresson
+    for alt in alt_list:
+        print("alt :", alt)
+        # prepare training df 
+        # process train data for a new features set
+        norm_factor, train_expand_df = expand_csv(os.path.join(dirpath, train_set_file), alt, stride, True, if_norm, None, machine_info)  
+        _, test_expand_df =  expand_csv(os.path.join(dirpath, indepent_test_set_file), alt, stride, True, if_norm, None, machine_info)   
+        
+        list_test_df = prepare_indp_test_set(test_expand_df)
+
+        
+        model_dict = {}
+        i = 0
+        for al in algo_list:
+            best_model_avg_cost = 10000
+            best_model_max_cost = 10000
+            best_model = None
+            best_model_name = ""
+            for seed in list_random_state:
+                al.set_params(**{"random_state":seed})
+
+                indi_test_avg_lop = []
+                indi_test_max_lop = []
+              
+                #print(al.get_params())
+                x_train = train_expand_df.iloc[:, :-1].values   # not include time value
+                y_train = train_expand_df.iloc[:, -1].values    # time value x1000
+
+                regressor = al
+
+                regressor.fit(x_train, y_train)
+                
+                # test set
+                test_lop_list = []
+                for test_df in list_test_df:
+                    x_test = test_df.iloc[:, :-1].values
+                    y_test = test_df.iloc[:, -1].values      #ground truth
+                    y_pred = regressor.predict(x_test)
+                    out_df = test_df.copy(deep=True)
+                    out_df["Predict"] = y_pred
+
+                    lop = LOP_summary_for_validate(out_df, topN)
+                    test_lop_list.append(lop)
+
+                    
+                test_avg_lop = sum(test_lop_list)/len(test_lop_list)
+                test_max_lop = max(test_lop_list)
+                print("[{}] seed {}  : The average indp-test avg {}".format(algo_name[i], seed, test_avg_lop) )
+
+                if test_avg_lop < best_model_avg_cost:
+                    best_model_name = algo_name[i]+"_"+template_name+"_"+str(alt)+".pkl"
+                    best_model = copy.deepcopy(regressor)
+                    best_model_avg_cost = test_avg_lop
+                    best_model_max_cost = test_max_lop
+                elif test_avg_lop == best_model_avg_cost and test_max_lop < best_model_max_cost:
+                    best_model_name = algo_name[i]+"_"+template_name+"_"+str(alt)+".pkl"
+                    best_model = copy.deepcopy(regressor)
+                    best_model_avg_cost = test_avg_lop
+                    best_model_max_cost = test_max_lop
+            
+            import joblib
+            joblib.dump(best_model, best_model_name) 
+            model_dict[algo_name[i]] = (best_model_name, best_model)
+            i+=1 # choose next model
+        
+        all_model_dict[alt] = model_dict
+
+    return all_model_dict
+
+def Gemm(dirpath, machine_info,  topN, step, initN, all_model_dict, algo_list, algo_name):
+    print("working path ", dirpath)
+    stride = 1
+
+    #shuffling test-set
+    for file in os.listdir(dirpath):
+        print("working file ", file)
+        if file.endswith(".csv") and file.startswith("Reg."):
+            random_order_csv(file, dirpath)
+    print("Done shuffling")
+
+    if_norm = False
+    big_not_norm_summary = gen_res_table(dirpath, all_model_dict, stride, if_norm, machine_info, topN, step, initN, algo_list, algo_name)
+    
+   
+    # summary_file = open("1x1_summary-17-new-new.csv", "w")
+        
+    # for tp in range(5, 40, 5):    
+    #     summary_file.write("topN : " + str(tp) + "\n")
+    #     not_norm_summary = big_not_norm_summary[tp]
+    #     alt_list = [1,2]
+    #     for alt in alt_list:
+    #         temp_dict = {}
+    #         for key, value in not_norm_summary.items():
+    #             temp_dict[key] = value[alt]
+            
+    #         table_view(temp_dict, summary_file)
+    #summary_file.close()
+
+    return big_not_norm_summary
+
+
+
+
+if __name__ == '__main__':
+    gemm(dirpath, machine_info,  topN, step, initN, train_set_file)
+    
+
+
+

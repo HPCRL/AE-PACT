@@ -1,0 +1,283 @@
+working path  /home/yufan/GPU-Kernel-Conv/zeus-ML/new-halfhalf/dir_rs3odd_dataset
+alt : 1
+-------------------------handling  /home/yufan/GPU-Kernel-Conv/zeus-ML/new-halfhalf/dir_rs3odd_dataset/train_set_c_rskernel
+[DecisionTreeRegressor] seed 17 shift 0 : The average is 0.5229950622205385 
+[DecisionTreeRegressor] seed 17 shift 1 : The average is 0.07431433605327926 
+[DecisionTreeRegressor] seed 17 shift 2 : The average is 0.0 
+[DecisionTreeRegressor] seed 17 shift 3 : The average is 0.05441544989861573 
+[DecisionTreeRegressor] seed 17 shift 4 : The average is 0.5394303026164854 
+[DecisionTreeRegressor] seed 17 shift 5 : The average is 0.544492144265766 
+[DecisionTreeRegressor] seed 17 shift 6 : The average is 0.5734426506157343 
+[DecisionTreeRegressor] seed 17 shift 7 : The average is 0.3857003338311831 
+[DecisionTreeRegressor] seed 17 shift 8 : The average is 0.2801127147848135 
+[DecisionTreeRegressor] seed 17 shift 9 : The average is 0.78106966141675 
+-----------------------
+summary [DecisionTreeRegressor] seed 17 : The average is 0.37559726557031653 
+-----------------------
+[DecisionTreeRegressor] seed 43 shift 0 : The average is 0.5039101153543726 
+[DecisionTreeRegressor] seed 43 shift 1 : The average is 0.07431433605327926 
+[DecisionTreeRegressor] seed 43 shift 2 : The average is 0.0 
+[DecisionTreeRegressor] seed 43 shift 3 : The average is 0.0593265692297971 
+[DecisionTreeRegressor] seed 43 shift 4 : The average is 0.6088642824768774 
+[DecisionTreeRegressor] seed 43 shift 5 : The average is 0.36672096310758556 
+[DecisionTreeRegressor] seed 43 shift 6 : The average is 0.60455720332527 
+[DecisionTreeRegressor] seed 43 shift 7 : The average is 0.3894705572387131 
+[DecisionTreeRegressor] seed 43 shift 8 : The average is 0.3124427036365414 
+[DecisionTreeRegressor] seed 43 shift 9 : The average is 0.10019550073385847 
+-----------------------
+summary [DecisionTreeRegressor] seed 43 : The average is 0.30198022311562955 
+-----------------------
+[DecisionTreeRegressor] seed 137 shift 0 : The average is 0.484264747457064 
+[DecisionTreeRegressor] seed 137 shift 1 : The average is 0.07431433605327926 
+[DecisionTreeRegressor] seed 137 shift 2 : The average is 0.0 
+[DecisionTreeRegressor] seed 137 shift 3 : The average is 0.026183884757257546 
+[DecisionTreeRegressor] seed 137 shift 4 : The average is 0.8243811211243509 
+[DecisionTreeRegressor] seed 137 shift 5 : The average is 0.7023852173996142 
+[DecisionTreeRegressor] seed 137 shift 6 : The average is 0.5776028165175359 
+[DecisionTreeRegressor] seed 137 shift 7 : The average is 0.561515851677567 
+[DecisionTreeRegressor] seed 137 shift 8 : The average is 0.20546711576146026 
+[DecisionTreeRegressor] seed 137 shift 9 : The average is 0.10019550073385847 
+-----------------------
+summary [DecisionTreeRegressor] seed 137 : The average is 0.3556310591481988 
+-----------------------
+[DecisionTreeRegressor] seed 269 shift 0 : The average is 0.5229950622205385 
+[DecisionTreeRegressor] seed 269 shift 1 : The average is 0.07431433605327926 
+[DecisionTreeRegressor] seed 269 shift 2 : The average is 0.0 
+[DecisionTreeRegressor] seed 269 shift 3 : The average is 0.05441544989861573 
+[DecisionTreeRegressor] seed 269 shift 4 : The average is 0.512270503980252 
+[DecisionTreeRegressor] seed 269 shift 5 : The average is 0.6641221312131582 
+[DecisionTreeRegressor] seed 269 shift 6 : The average is 0.5820695699113093 
+[DecisionTreeRegressor] seed 269 shift 7 : The average is 0.3894705572387131 
+[DecisionTreeRegressor] seed 269 shift 8 : The average is 0.22874318178415018 
+[DecisionTreeRegressor] seed 269 shift 9 : The average is 0.14409930386584952 
+-----------------------
+summary [DecisionTreeRegressor] seed 269 : The average is 0.31725000961658656 
+-----------------------
+[DecisionTreeRegressor] seed 811 shift 0 : The average is 0.5156887364592407 
+[DecisionTreeRegressor] seed 811 shift 1 : The average is 0.07431433605327926 
+[DecisionTreeRegressor] seed 811 shift 2 : The average is 0.0 
+[DecisionTreeRegressor] seed 811 shift 3 : The average is 0.05441544989861573 
+[DecisionTreeRegressor] seed 811 shift 4 : The average is 0.49985429324181824 
+[DecisionTreeRegressor] seed 811 shift 5 : The average is 0.9860955729481168 
+[DecisionTreeRegressor] seed 811 shift 6 : The average is 0.6293449424868284 
+[DecisionTreeRegressor] seed 811 shift 7 : The average is 0.4094603689182333 
+[DecisionTreeRegressor] seed 811 shift 8 : The average is 0.2801127147848135 
+[DecisionTreeRegressor] seed 811 shift 9 : The average is 0.691136192663947 
+-----------------------
+summary [DecisionTreeRegressor] seed 811 : The average is 0.4140422607454893 
+-----------------------
+[RandomForestRegressor] seed 17 shift 0 : The average is 0.18783727954103185 
+[RandomForestRegressor] seed 17 shift 1 : The average is 0.1206567981251772 
+[RandomForestRegressor] seed 17 shift 2 : The average is 0.3910386719426139 
+[RandomForestRegressor] seed 17 shift 3 : The average is 0.004092587195181231 
+[RandomForestRegressor] seed 17 shift 4 : The average is 0.01735051371781596 
+[RandomForestRegressor] seed 17 shift 5 : The average is 0.13644856125721636 
+[RandomForestRegressor] seed 17 shift 6 : The average is 0.2998113817926788 
+[RandomForestRegressor] seed 17 shift 7 : The average is 0.2308587288181712 
+[RandomForestRegressor] seed 17 shift 8 : The average is 0.05044966595849208 
+[RandomForestRegressor] seed 17 shift 9 : The average is 0.12088901303810903 
+-----------------------
+summary [RandomForestRegressor] seed 17 : The average is 0.15594332013864876 
+-----------------------
+[RandomForestRegressor] seed 43 shift 0 : The average is 0.20083094368164872 
+[RandomForestRegressor] seed 43 shift 1 : The average is 0.1206567981251772 
+[RandomForestRegressor] seed 43 shift 2 : The average is 0.3910386719426139 
+[RandomForestRegressor] seed 43 shift 3 : The average is 0.04965267657631403 
+[RandomForestRegressor] seed 43 shift 4 : The average is 0.01767688117600976 
+[RandomForestRegressor] seed 43 shift 5 : The average is 0.12936610282693434 
+[RandomForestRegressor] seed 43 shift 6 : The average is 0.31276778701830926 
+[RandomForestRegressor] seed 43 shift 7 : The average is 0.24995651843873848 
+[RandomForestRegressor] seed 43 shift 8 : The average is 0.04905613195626242 
+[RandomForestRegressor] seed 43 shift 9 : The average is 0.12088901303810903 
+-----------------------
+summary [RandomForestRegressor] seed 43 : The average is 0.1641891524780117 
+-----------------------
+[RandomForestRegressor] seed 137 shift 0 : The average is 0.1549913680829311 
+[RandomForestRegressor] seed 137 shift 1 : The average is 0.1206567981251772 
+[RandomForestRegressor] seed 137 shift 2 : The average is 0.3910386719426139 
+[RandomForestRegressor] seed 137 shift 3 : The average is 0.04965267657631403 
+[RandomForestRegressor] seed 137 shift 4 : The average is 0.0013958889218302145 
+[RandomForestRegressor] seed 137 shift 5 : The average is 0.12936610282693434 
+[RandomForestRegressor] seed 137 shift 6 : The average is 0.2998113817926788 
+[RandomForestRegressor] seed 137 shift 7 : The average is 0.11529999359918537 
+[RandomForestRegressor] seed 137 shift 8 : The average is 0.04905613195626242 
+[RandomForestRegressor] seed 137 shift 9 : The average is 0.12088901303810903 
+-----------------------
+summary [RandomForestRegressor] seed 137 : The average is 0.14321580268620365 
+-----------------------
+[RandomForestRegressor] seed 269 shift 0 : The average is 0.2040581851441265 
+[RandomForestRegressor] seed 269 shift 1 : The average is 0.21148073277785498 
+[RandomForestRegressor] seed 269 shift 2 : The average is 0.3910386719426139 
+[RandomForestRegressor] seed 269 shift 3 : The average is 0.04965267657631403 
+[RandomForestRegressor] seed 269 shift 4 : The average is 0.025064966778432052 
+[RandomForestRegressor] seed 269 shift 5 : The average is 0.12936610282693434 
+[RandomForestRegressor] seed 269 shift 6 : The average is 0.30158589493556626 
+[RandomForestRegressor] seed 269 shift 7 : The average is 0.36242042196118274 
+[RandomForestRegressor] seed 269 shift 8 : The average is 0.05044966595849208 
+[RandomForestRegressor] seed 269 shift 9 : The average is 0.12088901303810903 
+-----------------------
+summary [RandomForestRegressor] seed 269 : The average is 0.1846006331939626 
+-----------------------
+[RandomForestRegressor] seed 811 shift 0 : The average is 0.18919541106755774 
+[RandomForestRegressor] seed 811 shift 1 : The average is 0.1206567981251772 
+[RandomForestRegressor] seed 811 shift 2 : The average is 0.3910386719426139 
+[RandomForestRegressor] seed 811 shift 3 : The average is 0.004092587195181231 
+[RandomForestRegressor] seed 811 shift 4 : The average is 0.019493764090419394 
+[RandomForestRegressor] seed 811 shift 5 : The average is 0.11637024561111234 
+[RandomForestRegressor] seed 811 shift 6 : The average is 0.31276778701830926 
+[RandomForestRegressor] seed 811 shift 7 : The average is 0.2308587288181712 
+[RandomForestRegressor] seed 811 shift 8 : The average is 0.05044966595849208 
+[RandomForestRegressor] seed 811 shift 9 : The average is 0.12088901303810903 
+-----------------------
+summary [RandomForestRegressor] seed 811 : The average is 0.15558126728651434 
+-----------------------
+alt : 2
+-------------------------handling  /home/yufan/GPU-Kernel-Conv/zeus-ML/new-halfhalf/dir_rs3odd_dataset/train_set_c_rskernel
+[DecisionTreeRegressor] seed 17 shift 0 : The average is 0.10095708296855754 
+[DecisionTreeRegressor] seed 17 shift 1 : The average is 0.06232357075887863 
+[DecisionTreeRegressor] seed 17 shift 2 : The average is 0.13035830015739266 
+[DecisionTreeRegressor] seed 17 shift 3 : The average is 0.0033530068978917657 
+[DecisionTreeRegressor] seed 17 shift 4 : The average is 0.12121242216902918 
+[DecisionTreeRegressor] seed 17 shift 5 : The average is 0.12422773838254608 
+[DecisionTreeRegressor] seed 17 shift 6 : The average is 0.0857008837941861 
+[DecisionTreeRegressor] seed 17 shift 7 : The average is 0.20273309305821555 
+[DecisionTreeRegressor] seed 17 shift 8 : The average is 0.12195530333109011 
+[DecisionTreeRegressor] seed 17 shift 9 : The average is 0.04567852331223548 
+-----------------------
+summary [DecisionTreeRegressor] seed 17 : The average is 0.0998499924830023 
+-----------------------
+[DecisionTreeRegressor] seed 43 shift 0 : The average is 0.13590882197952173 
+[DecisionTreeRegressor] seed 43 shift 1 : The average is 0.06846781327698682 
+[DecisionTreeRegressor] seed 43 shift 2 : The average is 0.13035830015739266 
+[DecisionTreeRegressor] seed 43 shift 3 : The average is 0.0037999125619353194 
+[DecisionTreeRegressor] seed 43 shift 4 : The average is 0.18178424849651445 
+[DecisionTreeRegressor] seed 43 shift 5 : The average is 0.15763154035469923 
+[DecisionTreeRegressor] seed 43 shift 6 : The average is 0.2173311326712437 
+[DecisionTreeRegressor] seed 43 shift 7 : The average is 0.16709338717678182 
+[DecisionTreeRegressor] seed 43 shift 8 : The average is 0.29314094087402154 
+[DecisionTreeRegressor] seed 43 shift 9 : The average is 0.1176152267592815 
+-----------------------
+summary [DecisionTreeRegressor] seed 43 : The average is 0.1473131324308379 
+-----------------------
+[DecisionTreeRegressor] seed 137 shift 0 : The average is 0.13725115230920304 
+[DecisionTreeRegressor] seed 137 shift 1 : The average is 0.06232357075887863 
+[DecisionTreeRegressor] seed 137 shift 2 : The average is 0.13035830015739266 
+[DecisionTreeRegressor] seed 137 shift 3 : The average is 0.0033530068978917657 
+[DecisionTreeRegressor] seed 137 shift 4 : The average is 0.12942803345727044 
+[DecisionTreeRegressor] seed 137 shift 5 : The average is 0.12422773838254608 
+[DecisionTreeRegressor] seed 137 shift 6 : The average is 0.17666097383368767 
+[DecisionTreeRegressor] seed 137 shift 7 : The average is 0.16582219231982437 
+[DecisionTreeRegressor] seed 137 shift 8 : The average is 0.1429367722478223 
+[DecisionTreeRegressor] seed 137 shift 9 : The average is 0.07469861089060341 
+-----------------------
+summary [DecisionTreeRegressor] seed 137 : The average is 0.11470603512551206 
+-----------------------
+[DecisionTreeRegressor] seed 269 shift 0 : The average is 0.1975410403593059 
+[DecisionTreeRegressor] seed 269 shift 1 : The average is 0.06232357075887863 
+[DecisionTreeRegressor] seed 269 shift 2 : The average is 0.13035830015739266 
+[DecisionTreeRegressor] seed 269 shift 3 : The average is 0.06071662780530461 
+[DecisionTreeRegressor] seed 269 shift 4 : The average is 0.16568048134272687 
+[DecisionTreeRegressor] seed 269 shift 5 : The average is 0.11169822777999802 
+[DecisionTreeRegressor] seed 269 shift 6 : The average is 0.08997769305431912 
+[DecisionTreeRegressor] seed 269 shift 7 : The average is 0.169536464792497 
+[DecisionTreeRegressor] seed 269 shift 8 : The average is 0.2913691554164487 
+[DecisionTreeRegressor] seed 269 shift 9 : The average is 0.07037031231075438 
+-----------------------
+summary [DecisionTreeRegressor] seed 269 : The average is 0.1349571873777626 
+-----------------------
+[DecisionTreeRegressor] seed 811 shift 0 : The average is 0.1677526876213832 
+[DecisionTreeRegressor] seed 811 shift 1 : The average is 0.06232357075887863 
+[DecisionTreeRegressor] seed 811 shift 2 : The average is 0.13035830015739266 
+[DecisionTreeRegressor] seed 811 shift 3 : The average is 0.06071662780530461 
+[DecisionTreeRegressor] seed 811 shift 4 : The average is 0.10947135578247195 
+[DecisionTreeRegressor] seed 811 shift 5 : The average is 0.1427518904641084 
+[DecisionTreeRegressor] seed 811 shift 6 : The average is 0.16336632668135131 
+[DecisionTreeRegressor] seed 811 shift 7 : The average is 0.16531178793957313 
+[DecisionTreeRegressor] seed 811 shift 8 : The average is 0.26289056869448457 
+[DecisionTreeRegressor] seed 811 shift 9 : The average is 0.0659659751612769 
+-----------------------
+summary [DecisionTreeRegressor] seed 811 : The average is 0.13309090910662252 
+-----------------------
+[RandomForestRegressor] seed 17 shift 0 : The average is 0.09927054482262605 
+[RandomForestRegressor] seed 17 shift 1 : The average is 0.003546281985230993 
+[RandomForestRegressor] seed 17 shift 2 : The average is 0.13035830015739266 
+[RandomForestRegressor] seed 17 shift 3 : The average is 0.0026638249295637814 
+[RandomForestRegressor] seed 17 shift 4 : The average is 0.07944820275640037 
+[RandomForestRegressor] seed 17 shift 5 : The average is 0.05133205704682582 
+[RandomForestRegressor] seed 17 shift 6 : The average is 0.172148673882734 
+[RandomForestRegressor] seed 17 shift 7 : The average is 0.0673180559138027 
+[RandomForestRegressor] seed 17 shift 8 : The average is 0.044580334882630385 
+[RandomForestRegressor] seed 17 shift 9 : The average is 0.06848480591671058 
+-----------------------
+summary [RandomForestRegressor] seed 17 : The average is 0.07191510822939173 
+-----------------------
+[RandomForestRegressor] seed 43 shift 0 : The average is 0.17042496943396568 
+[RandomForestRegressor] seed 43 shift 1 : The average is 0.003546281985230993 
+[RandomForestRegressor] seed 43 shift 2 : The average is 0.13035830015739266 
+[RandomForestRegressor] seed 43 shift 3 : The average is 0.0008330904498202749 
+[RandomForestRegressor] seed 43 shift 4 : The average is 0.013013239509356561 
+[RandomForestRegressor] seed 43 shift 5 : The average is 0.06619825981853841 
+[RandomForestRegressor] seed 43 shift 6 : The average is 0.15962697402057624 
+[RandomForestRegressor] seed 43 shift 7 : The average is 0.06388208370945883 
+[RandomForestRegressor] seed 43 shift 8 : The average is 0.03855745111761445 
+[RandomForestRegressor] seed 43 shift 9 : The average is 0.07976250800288234 
+-----------------------
+summary [RandomForestRegressor] seed 43 : The average is 0.07262031582048364 
+-----------------------
+[RandomForestRegressor] seed 137 shift 0 : The average is 0.08956519461308543 
+[RandomForestRegressor] seed 137 shift 1 : The average is 0.003546281985230993 
+[RandomForestRegressor] seed 137 shift 2 : The average is 0.13035830015739266 
+[RandomForestRegressor] seed 137 shift 3 : The average is 0.009129991256193532 
+[RandomForestRegressor] seed 137 shift 4 : The average is 0.06217253782972872 
+[RandomForestRegressor] seed 137 shift 5 : The average is 0.05320240260271638 
+[RandomForestRegressor] seed 137 shift 6 : The average is 0.15526265999478286 
+[RandomForestRegressor] seed 137 shift 7 : The average is 0.0936161794415332 
+[RandomForestRegressor] seed 137 shift 8 : The average is 0.04620556585860888 
+[RandomForestRegressor] seed 137 shift 9 : The average is 0.06457997182059089 
+-----------------------
+summary [RandomForestRegressor] seed 137 : The average is 0.07076390855598635 
+-----------------------
+[RandomForestRegressor] seed 269 shift 0 : The average is 0.08567573709005571 
+[RandomForestRegressor] seed 269 shift 1 : The average is 0.003546281985230993 
+[RandomForestRegressor] seed 269 shift 2 : The average is 0.13035830015739266 
+[RandomForestRegressor] seed 269 shift 3 : The average is 0.009129991256193532 
+[RandomForestRegressor] seed 269 shift 4 : The average is 0.07944820275640037 
+[RandomForestRegressor] seed 269 shift 5 : The average is 0.057012980967960716 
+[RandomForestRegressor] seed 269 shift 6 : The average is 0.09634557664260858 
+[RandomForestRegressor] seed 269 shift 7 : The average is 0.07045832809818539 
+[RandomForestRegressor] seed 269 shift 8 : The average is 0.027454515967797542 
+[RandomForestRegressor] seed 269 shift 9 : The average is 0.06314506898669855 
+-----------------------
+summary [RandomForestRegressor] seed 269 : The average is 0.06225749839085241 
+-----------------------
+[RandomForestRegressor] seed 811 shift 0 : The average is 0.09927054482262605 
+[RandomForestRegressor] seed 811 shift 1 : The average is 0.003546281985230993 
+[RandomForestRegressor] seed 811 shift 2 : The average is 0.13035830015739266 
+[RandomForestRegressor] seed 811 shift 3 : The average is 0.0026638249295637814 
+[RandomForestRegressor] seed 811 shift 4 : The average is 0.06217253782972872 
+[RandomForestRegressor] seed 811 shift 5 : The average is 0.08431300926522134 
+[RandomForestRegressor] seed 811 shift 6 : The average is 0.09634557664260858 
+[RandomForestRegressor] seed 811 shift 7 : The average is 0.06376323417297203 
+[RandomForestRegressor] seed 811 shift 8 : The average is 0.05232012994394402 
+[RandomForestRegressor] seed 811 shift 9 : The average is 0.06848480591671058 
+-----------------------
+summary [RandomForestRegressor] seed 811 : The average is 0.06632382456659988 
+-----------------------
+{1: {'DecisionTreeRegressor': ('DecisionTreeRegressor_43_1.pkl', DecisionTreeRegressor(random_state=43)), 'RandomForestRegressor': ('RandomForestRegressor_17_1.pkl', RandomForestRegressor(random_state=17))}, 2: {'DecisionTreeRegressor': ('DecisionTreeRegressor_17_2.pkl', DecisionTreeRegressor(random_state=17)), 'RandomForestRegressor': ('RandomForestRegressor_269_2.pkl', RandomForestRegressor(random_state=269))}}
+working path  /home/yufan/GPU-Kernel-Conv/zeus-ML/new-halfhalf/dir_rs3odd_dataset
+working file  train_set_c_rskernel.csv
+working file  Reg.timesForProblem1024x17x17_512_3.csv
+-------------------------shuffling  Reg.timesForProblem1024x17x17_512_3
+working file  Reg.timesForProblem512x7x7_512_3.csv
+-------------------------shuffling  Reg.timesForProblem512x7x7_512_3
+working file  train_set_c_rskernel_test.csv
+working file  test_set_rskernel.csv
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/GPU-Kernel-Conv/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
+~~ alt :  1
+-------------------------handling  /home/yufan/GPU-Kernel-Conv/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3
+~~ alt :  2
+-------------------------handling  /home/yufan/GPU-Kernel-Conv/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
+~~ alt :  2
+-------------------------handling  /home/yufan/GPU-Kernel-Conv/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3

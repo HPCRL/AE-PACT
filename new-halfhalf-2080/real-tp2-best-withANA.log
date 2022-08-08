@@ -1,0 +1,767 @@
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset
+working file  Reg.timesForProblem128x27x27_128_3.csv
+-------------------------shuffling  Reg.timesForProblem128x27x27_128_3
+working file  test_set_rskernel.csv
+working file  Reg.timesForProblem512x7x7_512_3.csv
+-------------------------shuffling  Reg.timesForProblem512x7x7_512_3
+working file  Reg.timesForProblem1024x17x17_512_3.csv
+-------------------------shuffling  Reg.timesForProblem1024x17x17_512_3
+working file  Reg.timesForProblem128x27x27_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x27x27_64_3
+working file  train_set_c_rskernel_test.csv
+working file  train_set_c_rskernel.csv
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_128_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_64_3
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs1odd_dataset
+working file  test_set_rskernel.csv
+working file  Reg.timesForProblem512x17x17_1024_1.csv
+-------------------------shuffling  Reg.timesForProblem512x17x17_1024_1
+working file  train_set_c_rskernel_test.csv
+working file  train_set_c_rskernel.csv
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs1odd_dataset/Reg.timesForProblem512x17x17_1024_1
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset
+working file  Reg.timesForProblem512x7x7_256_3.csv
+-------------------------shuffling  Reg.timesForProblem512x7x7_256_3
+working file  Reg.timesForProblem128x28x28_64_1.csv
+-------------------------shuffling  Reg.timesForProblem128x28x28_64_1
+working file  test_set_c_rskernel_stride2.csv
+working file  Reg.timesForProblem128x28x28_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x28x28_64_3
+working file  train_set_c_rskernel_stride2_test.csv
+working file  train_set_c_rskernel_stride2.csv
+working file  Reg.timesForProblem64x112x112_3_7.csv
+-------------------------shuffling  Reg.timesForProblem64x112x112_3_7
+working file  Reg.timesForProblem512x7x7_256_1.csv
+-------------------------shuffling  Reg.timesForProblem512x7x7_256_1
+working file  Reg.timesForProblem256x14x14_128_1.csv
+-------------------------shuffling  Reg.timesForProblem256x14x14_128_1
+working file  Reg.timesForProblem256x14x14_128_3.csv
+-------------------------shuffling  Reg.timesForProblem256x14x14_128_3
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem512x7x7_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem128x28x28_64_1
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem128x28x28_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem64x112x112_3_7
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem512x7x7_256_1
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem256x14x14_128_1
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem256x14x14_128_3
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset
+working file  Reg.timesForProblem64x56x56_64_1.csv
+-------------------------shuffling  Reg.timesForProblem64x56x56_64_1
+working file  Reg.timesForProblem128x68x68_256_1.csv
+-------------------------shuffling  Reg.timesForProblem128x68x68_256_1
+working file  Reg.timesForProblem64x136x136_128_1.csv
+-------------------------shuffling  Reg.timesForProblem64x136x136_128_1
+working file  Reg.timesForProblem256x34x34_512_1.csv
+-------------------------shuffling  Reg.timesForProblem256x34x34_512_1
+working file  test_set_gemmkernel.csv
+working file  train_set_gemmkernel_test.csv
+working file  train_set_gemmkernel.csv
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem64x56x56_64_1
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem128x68x68_256_1
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem64x136x136_128_1
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem256x34x34_512_1
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset
+working file  Reg.timesForProblem64x54x54_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_64_3
+working file  Reg.timesForProblem256x14x14_256_3.csv
+-------------------------shuffling  Reg.timesForProblem256x14x14_256_3
+working file  test_set_rskernel.csv
+working file  Reg.timesForProblem512x34x34_256_3.csv
+-------------------------shuffling  Reg.timesForProblem512x34x34_256_3
+working file  Reg.timesForProblem64x272x272_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x272x272_32_3
+working file  Reg.timesForProblem32x108x108_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_3_3
+working file  Reg.timesForProblem64x54x54_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_32_3
+working file  Reg.timesForProblem256x68x68_128_3.csv
+-------------------------shuffling  Reg.timesForProblem256x68x68_128_3
+working file  Reg.timesForProblem128x136x136_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x136x136_64_3
+working file  Reg.timesForProblem32x544x544_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x544x544_3_3
+working file  Reg.timesForProblem32x108x108_32_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_32_3
+working file  Reg.timesForProblem64x56x56_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x56x56_64_3
+working file  train_set_c_rskernel_test.csv
+working file  train_set_c_rskernel.csv
+working file  Reg.timesForProblem128x28x28_128_3.csv
+-------------------------shuffling  Reg.timesForProblem128x28x28_128_3
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem256x14x14_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem512x34x34_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x272x272_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_3_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem256x68x68_128_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem128x136x136_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem32x544x544_3_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x56x56_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem128x28x28_128_3
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset
+working file  Reg.timesForProblem64x54x54_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_64_3
+working file  Reg.timesForProblem256x14x14_256_3.csv
+-------------------------shuffling  Reg.timesForProblem256x14x14_256_3
+working file  Reg.timesForProblem512x34x34_256_3.csv
+-------------------------shuffling  Reg.timesForProblem512x34x34_256_3
+working file  Reg.timesForProblem64x272x272_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x272x272_32_3
+working file  train_set_3_skernel_test.csv
+working file  Reg.timesForProblem32x108x108_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_3_3
+working file  Reg.timesForProblem64x54x54_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_32_3
+working file  Reg.timesForProblem256x68x68_128_3.csv
+-------------------------shuffling  Reg.timesForProblem256x68x68_128_3
+working file  Reg.timesForProblem128x136x136_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x136x136_64_3
+working file  train_set_3_skernel.csv
+working file  Reg.timesForProblem32x544x544_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x544x544_3_3
+working file  test_set_3_skernel.csv
+working file  Reg.timesForProblem32x108x108_32_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_32_3
+working file  Reg.timesForProblem64x56x56_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x56x56_64_3
+working file  Reg.timesForProblem128x28x28_128_3.csv
+-------------------------shuffling  Reg.timesForProblem128x28x28_128_3
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x54x54_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem256x14x14_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem512x34x34_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x272x272_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem32x108x108_3_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x54x54_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem256x68x68_128_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem128x136x136_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem32x544x544_3_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem32x108x108_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x56x56_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem128x28x28_128_3
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset
+alt : 1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/train_set_c_rskernel
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/test_set_rskernel
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.6714971771711515
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.2806606244160987
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.1979008536018741
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.6712316098125255
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.7592957576161339
+alt : 2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/train_set_c_rskernel
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/test_set_rskernel
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.11684090463324745
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.10791511324767403
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.10791511324767403
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.11120627549965115
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.11120627549965115
+alt : 3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/train_set_c_rskernel
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/test_set_rskernel
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.12108530290359057
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.09674910534253568
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.15417608135595556
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.10331332600557878
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.12405704296177769
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset
+alt : 1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/train_set_c_rskernel_stride2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/test_set_c_rskernel_stride2
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.0
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.0
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.0
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.0
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.0
+alt : 2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/train_set_c_rskernel_stride2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/test_set_c_rskernel_stride2
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.028694184440693545
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.028694184440693545
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.028694184440693545
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.028694184440693545
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.028694184440693545
+alt : 3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/train_set_c_rskernel_stride2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/test_set_c_rskernel_stride2
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.0
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.028694184440693545
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.028694184440693545
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.028694184440693545
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.028694184440693545
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset
+alt : 1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/train_set_gemmkernel
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/test_set_gemmkernel
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.17970938288488464
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.135600818980429
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.08404013037393335
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.008914278963238924
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.0887618176520605
+alt : 2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/train_set_gemmkernel
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/test_set_gemmkernel
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.18575861139597327
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.22626514606638035
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.24853488174970365
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.2730353727537745
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.22626514606638035
+alt : 3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/train_set_gemmkernel
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/test_set_gemmkernel
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.06485601180872036
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.23118507819196235
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.3904722966976446
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.14344903908458173
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.14730395588347509
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset
+alt : 1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/train_set_3_skernel
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/test_set_3_skernel
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.12379189925215739
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.08006794808211433
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.12080150685702615
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.10715564637603828
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.09964553038006109
+alt : 2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/train_set_3_skernel
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/test_set_3_skernel
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.08898612058973021
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.09056866977706982
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.07953976171315807
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.08984771723069446
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.08392515008465984
+alt : 3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/train_set_3_skernel
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/test_set_3_skernel
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.012397599252962166
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.07929805928827341
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.05953917363189063
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.04973671927690714
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.051481592337623484
+========= DONE model building ..... ==============
+{1: {'RandomForestRegressor': ('RandomForestRegressor_137_1.pkl', RandomForestRegressor(random_state=137))}, 2: {'RandomForestRegressor': ('RandomForestRegressor_43_2.pkl', RandomForestRegressor(random_state=43))}, 3: {'RandomForestRegressor': ('RandomForestRegressor_43_3.pkl', RandomForestRegressor(random_state=43))}}
+{1: {'RandomForestRegressor': ('RandomForestRegressor_17_1.pkl', RandomForestRegressor(random_state=17))}, 2: {'RandomForestRegressor': ('RandomForestRegressor_17_2.pkl', RandomForestRegressor(random_state=17))}, 3: {'RandomForestRegressor': ('RandomForestRegressor_17_3.pkl', RandomForestRegressor(random_state=17))}}
+{1: {'RandomForestRegressor': ('RandomForestRegressor_269_1.pkl', RandomForestRegressor(random_state=269))}, 2: {'RandomForestRegressor': ('RandomForestRegressor_17_2.pkl', RandomForestRegressor(random_state=17))}, 3: {'RandomForestRegressor': ('RandomForestRegressor_17_3.pkl', RandomForestRegressor(random_state=17))}}
+{1: {'RandomForestRegressor': ('RandomForestRegressor_43_1.pkl', RandomForestRegressor(random_state=43))}, 2: {'RandomForestRegressor': ('RandomForestRegressor_137_2.pkl', RandomForestRegressor(random_state=137))}, 3: {'RandomForestRegressor': ('RandomForestRegressor_17_3.pkl', RandomForestRegressor(random_state=17))}}
+========= Predicting ..... ==============
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset
+working file  Reg.timesForProblem128x27x27_128_3.csv
+-------------------------shuffling  Reg.timesForProblem128x27x27_128_3
+working file  test_set_rskernel.csv
+working file  Reg.timesForProblem512x7x7_512_3.csv
+-------------------------shuffling  Reg.timesForProblem512x7x7_512_3
+working file  Reg.timesForProblem1024x17x17_512_3.csv
+-------------------------shuffling  Reg.timesForProblem1024x17x17_512_3
+working file  Reg.timesForProblem128x27x27_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x27x27_64_3
+working file  train_set_c_rskernel_test.csv
+working file  train_set_c_rskernel.csv
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_128_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_128_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_64_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_128_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_64_3
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs1odd_dataset
+working file  test_set_rskernel.csv
+working file  Reg.timesForProblem512x17x17_1024_1.csv
+-------------------------shuffling  Reg.timesForProblem512x17x17_1024_1
+working file  train_set_c_rskernel_test.csv
+working file  train_set_c_rskernel.csv
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs1odd_dataset/Reg.timesForProblem512x17x17_1024_1
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs1odd_dataset/Reg.timesForProblem512x17x17_1024_1
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs1odd_dataset/Reg.timesForProblem512x17x17_1024_1
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset
+working file  Reg.timesForProblem512x7x7_256_3.csv
+-------------------------shuffling  Reg.timesForProblem512x7x7_256_3
+working file  Reg.timesForProblem128x28x28_64_1.csv
+-------------------------shuffling  Reg.timesForProblem128x28x28_64_1
+working file  test_set_c_rskernel_stride2.csv
+working file  Reg.timesForProblem128x28x28_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x28x28_64_3
+working file  train_set_c_rskernel_stride2_test.csv
+working file  train_set_c_rskernel_stride2.csv
+working file  Reg.timesForProblem64x112x112_3_7.csv
+-------------------------shuffling  Reg.timesForProblem64x112x112_3_7
+working file  Reg.timesForProblem512x7x7_256_1.csv
+-------------------------shuffling  Reg.timesForProblem512x7x7_256_1
+working file  Reg.timesForProblem256x14x14_128_1.csv
+-------------------------shuffling  Reg.timesForProblem256x14x14_128_1
+working file  Reg.timesForProblem256x14x14_128_3.csv
+-------------------------shuffling  Reg.timesForProblem256x14x14_128_3
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem512x7x7_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem128x28x28_64_1
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem128x28x28_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem64x112x112_3_7
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem512x7x7_256_1
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem256x14x14_128_1
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem256x14x14_128_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem512x7x7_256_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem128x28x28_64_1
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem128x28x28_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem64x112x112_3_7
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem512x7x7_256_1
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem256x14x14_128_1
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem256x14x14_128_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem512x7x7_256_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem128x28x28_64_1
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem128x28x28_64_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem64x112x112_3_7
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem512x7x7_256_1
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem256x14x14_128_1
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_st2_dataset/Reg.timesForProblem256x14x14_128_3
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset
+working file  Reg.timesForProblem64x54x54_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_64_3
+working file  Reg.timesForProblem256x14x14_256_3.csv
+-------------------------shuffling  Reg.timesForProblem256x14x14_256_3
+working file  test_set_rskernel.csv
+working file  Reg.timesForProblem512x34x34_256_3.csv
+-------------------------shuffling  Reg.timesForProblem512x34x34_256_3
+working file  Reg.timesForProblem64x272x272_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x272x272_32_3
+working file  Reg.timesForProblem32x108x108_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_3_3
+working file  Reg.timesForProblem64x54x54_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_32_3
+working file  Reg.timesForProblem256x68x68_128_3.csv
+-------------------------shuffling  Reg.timesForProblem256x68x68_128_3
+working file  Reg.timesForProblem128x136x136_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x136x136_64_3
+working file  Reg.timesForProblem32x544x544_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x544x544_3_3
+working file  Reg.timesForProblem32x108x108_32_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_32_3
+working file  Reg.timesForProblem64x56x56_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x56x56_64_3
+working file  train_set_c_rskernel_test.csv
+working file  train_set_c_rskernel.csv
+working file  Reg.timesForProblem128x28x28_128_3.csv
+-------------------------shuffling  Reg.timesForProblem128x28x28_128_3
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem256x14x14_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem512x34x34_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x272x272_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_3_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem256x68x68_128_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem128x136x136_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem32x544x544_3_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x56x56_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem128x28x28_128_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem256x14x14_256_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem512x34x34_256_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x272x272_32_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_3_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_32_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem256x68x68_128_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem128x136x136_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem32x544x544_3_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_32_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x56x56_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem128x28x28_128_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_64_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem256x14x14_256_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem512x34x34_256_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x272x272_32_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_3_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_32_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem256x68x68_128_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem128x136x136_64_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem32x544x544_3_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_32_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem64x56x56_64_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_rs3_half_dataset/Reg.timesForProblem128x28x28_128_3
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset
+working file  Reg.timesForProblem64x54x54_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_64_3
+working file  Reg.timesForProblem256x14x14_256_3.csv
+-------------------------shuffling  Reg.timesForProblem256x14x14_256_3
+working file  Reg.timesForProblem512x34x34_256_3.csv
+-------------------------shuffling  Reg.timesForProblem512x34x34_256_3
+working file  Reg.timesForProblem64x272x272_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x272x272_32_3
+working file  train_set_3_skernel_test.csv
+working file  Reg.timesForProblem32x108x108_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_3_3
+working file  Reg.timesForProblem64x54x54_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_32_3
+working file  Reg.timesForProblem256x68x68_128_3.csv
+-------------------------shuffling  Reg.timesForProblem256x68x68_128_3
+working file  Reg.timesForProblem128x136x136_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x136x136_64_3
+working file  train_set_3_skernel.csv
+working file  Reg.timesForProblem32x544x544_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x544x544_3_3
+working file  test_set_3_skernel.csv
+working file  Reg.timesForProblem32x108x108_32_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_32_3
+working file  Reg.timesForProblem64x56x56_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x56x56_64_3
+working file  Reg.timesForProblem128x28x28_128_3.csv
+-------------------------shuffling  Reg.timesForProblem128x28x28_128_3
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x54x54_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem256x14x14_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem512x34x34_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x272x272_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem32x108x108_3_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x54x54_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem256x68x68_128_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem128x136x136_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem32x544x544_3_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem32x108x108_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x56x56_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem128x28x28_128_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x54x54_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem256x14x14_256_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem512x34x34_256_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x272x272_32_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem32x108x108_3_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x54x54_32_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem256x68x68_128_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem128x136x136_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem32x544x544_3_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem32x108x108_32_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x56x56_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem128x28x28_128_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x54x54_64_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem256x14x14_256_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem512x34x34_256_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x272x272_32_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem32x108x108_3_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x54x54_32_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem256x68x68_128_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem128x136x136_64_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem32x544x544_3_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem32x108x108_32_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem64x56x56_64_3
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_s3_half_dataset/Reg.timesForProblem128x28x28_128_3
+working path  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset
+working file  Reg.timesForProblem64x56x56_64_1.csv
+-------------------------shuffling  Reg.timesForProblem64x56x56_64_1
+working file  Reg.timesForProblem128x68x68_256_1.csv
+-------------------------shuffling  Reg.timesForProblem128x68x68_256_1
+working file  Reg.timesForProblem64x136x136_128_1.csv
+-------------------------shuffling  Reg.timesForProblem64x136x136_128_1
+working file  Reg.timesForProblem256x34x34_512_1.csv
+-------------------------shuffling  Reg.timesForProblem256x34x34_512_1
+working file  test_set_gemmkernel.csv
+working file  train_set_gemmkernel_test.csv
+working file  train_set_gemmkernel.csv
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem64x56x56_64_1
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem128x68x68_256_1
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem64x136x136_128_1
+~~ alt :  1
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem256x34x34_512_1
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem64x56x56_64_1
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem128x68x68_256_1
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem64x136x136_128_1
+~~ alt :  2
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem256x34x34_512_1
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem64x56x56_64_1
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem128x68x68_256_1
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem64x136x136_128_1
+~~ alt :  3
+-------------------------handling  /home/yufan/gpu_kernel_design/zeus-ML/new-halfhalf/dir_gemm_dataset/Reg.timesForProblem256x34x34_512_1
+========= Predicting DONE..... ==============
+============== final result :: ============
+============== Pure ANA :: ============
+[2, 'defo1', -1, 0.7513134851138354, 0.02, 0.01142, 1]
+[2, 'defo2', -1, 0.7713932306308331, 0.078765, 0.044465000000000005, 1]
+[2, 'defo3', -1, 1.4744744744744747, 0.07416, 0.02997, 1]
+[2, 'defo4', -1, 1.9173553719008267, 0.13414, 0.04598, 1]
+[2, 'defo5', -1, 3.2298578199052144, 0.13387500000000002, 0.03165, 1]
+[2, 'defo6', -1, 4.215971148892325, 0.253105, 0.048525, 1]
+[2, 'res1*', -1, 0.5029440102772725, 0.07019500000000001, 0.046704999999999997, 2]
+[2, 'res2', -1, 2.224720321494515, 0.14845, 0.046035, 1]
+[2, 'res3', -1, 2.969739952718676, 0.04198, 0.010575000000000001, 1]
+[2, 'res4*', -1, 2.3341359773371106, 0.117695, 0.0353, 2]
+[2, 'res5*', -1, 2.4091981132075477, 0.072275, 0.0212, 2]
+[2, 'res6', -1, 6.112088628217661, 0.327405, 0.046035, 1]
+[2, 'res7*', -1, 4.044245309437133, 0.18013, 0.03571, 2]
+[2, 'res8*', -1, 4.402030217186025, 0.114415, 0.02118, 2]
+[2, 'res9', -1, 11.97840851495185, 0.64016, 0.049325, 1]
+[2, 'res10*', -1, 12.94013020227854, 0.599565, 0.04301, 2]
+[2, 'res11*', -1, 12.873784556720688, 0.36384, 0.026225, 2]
+[2, 'res12', -1, 11.225897306275726, 0.84646, 0.069235, 1]
+[2, 'yolo0', -1, 0.41926977687626776, 0.174925, 0.12325, 1]
+[2, 'yolo2', -1, 0.35737590482116016, 0.447235, 0.32948500000000003, 1]
+[2, 'yolo4', -1, 0.49305499799277414, 0.4649, 0.31137499999999996, 1]
+[2, 'yolo5', -1, 0.6988957716132507, 0.09462, 0.055695, 1]
+[2, 'yolo8', -1, 0.7759257630398453, 0.605715, 0.34107, 1]
+[2, 'yolo9', -1, 1.4900885085216882, 0.17021, 0.068355, 1]
+[2, 'yolo12', -1, 1.2524639990557127, 0.763315, 0.33888, 1]
+[2, 'yolo13', -1, 1.4622779265027988, 0.20235, 0.08218, 1]
+[2, 'yolo18', -1, 1.6877936914375755, 0.9552149999999999, 0.35539, 1]
+[2, 'yolo19', -1, 3.8147635169795837, 0.469295, 0.09747, 1]
+============== Pure ML :: ============
+[2, 'defo1', 1, 0.042031523642732084, 11.9, 11.42, 1]
+[2, 'defo2', 1, 0.5850669065557176, 70.47999999999999, 44.465, 1]
+[2, 'defo3', 1, 0.43710377043710386, 43.07, 29.97, 1]
+[2, 'defo4', 1, 0.06002609830361038, 48.74, 45.98, 1]
+[2, 'defo5', 1, 2.2868878357030016, 104.03, 31.65, 1]
+[2, 'defo6', 1, 2.8640906749098396, 187.50499999999997, 48.525, 1]
+[2, 'res1*', 1, 0.2603575634300397, 58.865, 46.705, 2]
+[2, 'res2', 1, 0.08439231019876194, 49.92, 46.035, 1]
+[2, 'res3', 1, 3.9522458628841597, 52.37, 10.575000000000001, 1]
+[2, 'res4*', 1, 0.24971671388101999, 44.115, 35.3, 2]
+[2, 'res5*', 1, 0.46202830188679256, 30.995, 21.2, 2]
+[2, 'res6', 1, 1.8374063212772893, 130.62, 46.035, 1]
+[2, 'res7*', 1, 0.2651918230187622, 45.18, 35.71, 2]
+[2, 'res8*', 1, 0.8637865911237014, 39.474999999999994, 21.18, 2]
+[2, 'res9', 1, 3.4660922453117076, 220.29, 49.325, 1]
+[2, 'res10*', 1, 1.4768658451522902, 106.53, 43.01, 2]
+[2, 'res11*', 1, 0.6861773117254529, 44.22, 26.224999999999998, 2]
+[2, 'res12', 1, 0.40254206687369093, 97.10499999999999, 69.235, 1]
+[2, 'yolo0', 1, 0.035294117647058774, 127.6, 123.25, 1]
+[2, 'yolo2', 1, 0.014143284216276992, 334.14500000000004, 329.485, 1]
+[2, 'yolo4', 1, 0.0368044961862707, 322.835, 311.37499999999994, 1]
+[2, 'yolo5', 1, 0.43154681748810464, 79.72999999999999, 55.695, 1]
+[2, 'yolo8', 1, 0.09518573899785977, 373.535, 341.07, 1]
+[2, 'yolo9', 1, 0.6069051276424546, 109.83999999999999, 68.355, 1]
+[2, 'yolo12', 1, 0.632244452313503, 553.1349999999999, 338.88, 1]
+[2, 'yolo13', 1, 0.8421757118520318, 151.39, 82.18, 1]
+[2, 'yolo18', 1, 0.0, 355.39, 355.39, 1]
+[2, 'yolo19', 1, 0.24710167230942848, 121.55499999999999, 97.47, 1]
+============== Pure HYB :: ============
+[2, 'defo1', 2, 0.29772329246935203, 14.82, 11.42, 1]
+[2, 'defo2', 2, 0.18497694816147517, 52.69, 44.465, 1]
+[2, 'defo3', 2, 0.43710377043710386, 43.07, 29.97, 1]
+[2, 'defo4', 2, 0.5687255328403654, 72.13, 45.98, 1]
+[2, 'defo5', 2, 0.7082148499210112, 54.065000000000005, 31.65, 1]
+[2, 'defo6', 2, 0.6585265327150952, 80.47999999999999, 48.525, 1]
+[2, 'res1*', 2, 0.02398030189487217, 47.825, 46.705, 2]
+[2, 'res2', 2, 0.04203323558162273, 47.97, 46.035, 1]
+[2, 'res3', 2, 0.3300236406619385, 14.065000000000001, 10.575000000000001, 1]
+[2, 'res4*', 2, 0.020679886685552522, 36.03, 35.3, 2]
+[2, 'res5*', 2, 0.0724056603773585, 22.735, 21.2, 2]
+[2, 'res6', 2, 0.06256109481915939, 48.915, 46.035, 1]
+[2, 'res7*', 2, 0.0, 35.71, 35.71, 2]
+[2, 'res8*', 2, 0.010859301227573203, 21.41, 21.18, 2]
+[2, 'res9', 2, 0.39807399898631507, 68.96, 49.325, 1]
+[2, 'res10*', 2, 0.06916996047430833, 45.985, 43.01, 2]
+[2, 'res11*', 2, 0.0, 26.224999999999998, 26.224999999999998, 2]
+[2, 'res12', 2, 2.4637105510218817, 239.81, 69.235, 1]
+[2, 'yolo0', 2, 0.3064908722109534, 161.025, 123.25, 1]
+[2, 'yolo2', 2, 0.04215669909100562, 343.375, 329.485, 1]
+[2, 'yolo4', 2, 0.22737856282617466, 382.17500000000007, 311.37499999999994, 1]
+[2, 'yolo5', 2, 0.0, 55.695, 55.695, 1]
+[2, 'yolo8', 2, 0.05217404051954149, 358.865, 341.07, 1]
+[2, 'yolo9', 2, 0.14037012654524172, 77.95, 68.355, 1]
+[2, 'yolo12', 2, 0.1114258734655335, 376.64, 338.88, 1]
+[2, 'yolo13', 2, 0.4113531272815769, 115.985, 82.18, 1]
+[2, 'yolo18', 2, 0.12012155659979178, 398.08, 355.39, 1]
+[2, 'yolo19', 2, 0.4149994870216476, 137.92, 97.47, 1]
+============== Pure ext_HYB :: ============
+[2, 'defo1', 3, 0.29772329246935203, 14.82, 11.42, 1]
+[2, 'defo2', 3, 0.18497694816147517, 52.69, 44.465, 1]
+[2, 'defo3', 3, 0.43710377043710386, 43.07, 29.97, 1]
+[2, 'defo4', 3, 0.5687255328403654, 72.13, 45.98, 1]
+[2, 'defo5', 3, 0.7082148499210112, 54.065000000000005, 31.65, 1]
+[2, 'defo6', 3, 0.7106646058732614, 83.01, 48.525, 1]
+[2, 'res1*', 3, 0.008457338614709414, 47.1, 46.705, 2]
+[2, 'res2', 3, 0.04203323558162273, 47.97, 46.035, 1]
+[2, 'res3', 3, 0.3300236406619385, 14.065000000000001, 10.575000000000001, 1]
+[2, 'res4*', 3, 0.020679886685552522, 36.03, 35.3, 2]
+[2, 'res5*', 3, 0.1525943396226415, 24.435, 21.2, 2]
+[2, 'res6', 3, 0.06256109481915939, 48.915, 46.035, 1]
+[2, 'res7*', 3, 0.0, 35.71, 35.71, 2]
+[2, 'res8*', 3, 0.003305004721435162, 21.249999999999996, 21.18, 2]
+[2, 'res9', 3, 0.39807399898631507, 68.96, 49.325, 1]
+[2, 'res10*', 3, 0.06916996047430833, 45.985, 43.01, 2]
+[2, 'res11*', 3, 0.0, 26.224999999999998, 26.224999999999998, 2]
+[2, 'res12', 3, 2.4637105510218817, 239.81, 69.235, 1]
+[2, 'yolo0', 3, 0.3051926977687625, 160.86499999999998, 123.25, 1]
+[2, 'yolo2', 3, 0.2516503027451931, 412.4, 329.485, 1]
+[2, 'yolo4', 3, 0.25342432757928557, 390.28499999999997, 311.37499999999994, 1]
+[2, 'yolo5', 3, 0.0, 55.695, 55.695, 1]
+[2, 'yolo8', 3, 0.1364236080569972, 387.6, 341.07, 1]
+[2, 'yolo9', 3, 0.14037012654524172, 77.95, 68.355, 1]
+[2, 'yolo12', 3, 0.0013574126534465873, 339.34, 338.88, 1]
+[2, 'yolo13', 3, 0.5536626916524703, 127.68000000000002, 82.18, 1]
+[2, 'yolo18', 3, 0.12012155659979178, 398.08, 355.39, 1]
+[2, 'yolo19', 3, 0.24710167230942848, 121.55499999999999, 97.47, 1]
+============== Total Prediction time :: ============
+
+T 2.6930267810821533 N 1 per 0.8976755936940511
