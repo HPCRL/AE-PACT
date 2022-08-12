@@ -1,4 +1,4 @@
-1. Performance figure
+1. Performance 
 run bash scripts under the root of the project
 -i) Run "bash gen_profile_duration_log.sh"
 Generate duration logs from raw nsight(ncu) results.
@@ -7,13 +7,23 @@ Please double check if dlog has been generated. dlog contains intermediate resul
 The bash script generates 6 figures to show the throughtput speedup in 3 networks over two devices.
 
 
-2. Execution and Shared Memory correlation
+2. Execution time and Shared Memory correlation
 -i) Generate log file from profiling output and Run scripts
    "bash sm-cor-2080.sh > sm-2080.log"
    "bash sm-cor-v100.sh > sm-v100.log"
 -ii) Check two log files ("sm-v100.log", "sm-2080.log") are generated;
     Run python script to generate correlation figures(2080SMWVansor/v100SMWVansor/2080SMWVcnnopt/v100SMWVcnnopt.pdf) and pearson's R
     "python SM_correlation.py "
+
+3. LoP experiment
+Go to lop-v100/ and lop-2080/ and run "bash run.sh" to calculate LoP values.
+The printout table shows LoP between AnalyticalModeling, MLModeling, and CNNOpt Hybrid modeling.
+The script takes around 20-30 min to produce LOP table and dominant time cost is to generate hybrid model and comaprison pure ML model.
+Here is the explanation of the printing result 
+the 2nd column shows the layer name;
+the 3rd column represents model id (AnalyticalModeling -1, MLModeling 1, and CNNOpt Hybrid 2)
+the 4th column is the LopP
+[30, 'defo3', -1, 0.31874999999999987, 0.03376, 0.0256, 1]
 
 
 [Optional] 

@@ -1,0 +1,479 @@
+working path  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3odd_dataset
+working file  Reg.timesForProblem128x27x27_128_3.csv
+-------------------------shuffling  Reg.timesForProblem128x27x27_128_3
+working file  test_set_rskernel.csv
+working file  Reg.timesForProblem512x7x7_512_3.csv
+-------------------------shuffling  Reg.timesForProblem512x7x7_512_3
+working file  Reg.timesForProblem1024x17x17_512_3.csv
+-------------------------shuffling  Reg.timesForProblem1024x17x17_512_3
+working file  Reg.timesForProblem128x27x27_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x27x27_64_3
+working file  train_set_c_rskernel_test.csv
+working file  train_set_c_rskernel.csv
+Done shuffling
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_128_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_64_3
+working path  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset
+working file  Reg.timesForProblem512x7x7_256_3.csv
+-------------------------shuffling  Reg.timesForProblem512x7x7_256_3
+working file  test_set_c_rskernel_stride2.csv
+working file  Reg.timesForProblem128x28x28_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x28x28_64_3
+working file  train_set_c_rskernel_stride2_test.csv
+working file  train_set_c_rskernel_stride2.csv
+working file  Reg.timesForProblem64x112x112_3_7.csv
+-------------------------shuffling  Reg.timesForProblem64x112x112_3_7
+working file  Reg.timesForProblem256x14x14_128_3.csv
+-------------------------shuffling  Reg.timesForProblem256x14x14_128_3
+Done shuffling
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/Reg.timesForProblem512x7x7_256_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/Reg.timesForProblem128x28x28_64_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/Reg.timesForProblem64x112x112_3_7
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/Reg.timesForProblem256x14x14_128_3
+working path  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset
+working file  Reg.timesForProblem64x54x54_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_64_3
+working file  Reg.timesForProblem256x14x14_256_3.csv
+-------------------------shuffling  Reg.timesForProblem256x14x14_256_3
+working file  test_set_rskernel.csv
+working file  Reg.timesForProblem512x34x34_256_3.csv
+-------------------------shuffling  Reg.timesForProblem512x34x34_256_3
+working file  Reg.timesForProblem64x272x272_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x272x272_32_3
+working file  Reg.timesForProblem32x108x108_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_3_3
+working file  Reg.timesForProblem64x54x54_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_32_3
+working file  Reg.timesForProblem256x68x68_128_3.csv
+-------------------------shuffling  Reg.timesForProblem256x68x68_128_3
+working file  Reg.timesForProblem128x136x136_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x136x136_64_3
+working file  Reg.timesForProblem32x544x544_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x544x544_3_3
+working file  Reg.timesForProblem32x108x108_32_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_32_3
+working file  Reg.timesForProblem64x56x56_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x56x56_64_3
+working file  train_set_c_rskernel_test.csv
+working file  train_set_c_rskernel.csv
+working file  Reg.timesForProblem128x28x28_128_3.csv
+-------------------------shuffling  Reg.timesForProblem128x28x28_128_3
+Done shuffling
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_64_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem256x14x14_256_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem512x34x34_256_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem64x272x272_32_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_3_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_32_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem256x68x68_128_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem128x136x136_64_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem32x544x544_3_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_32_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem64x56x56_64_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem128x28x28_128_3
+working path  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset
+working file  Reg.timesForProblem64x54x54_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_64_3
+working file  Reg.timesForProblem256x14x14_256_3.csv
+-------------------------shuffling  Reg.timesForProblem256x14x14_256_3
+working file  Reg.timesForProblem512x34x34_256_3.csv
+-------------------------shuffling  Reg.timesForProblem512x34x34_256_3
+working file  Reg.timesForProblem64x272x272_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x272x272_32_3
+working file  train_set_3_skernel_test.csv
+working file  Reg.timesForProblem32x108x108_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_3_3
+working file  Reg.timesForProblem64x54x54_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_32_3
+working file  Reg.timesForProblem256x68x68_128_3.csv
+-------------------------shuffling  Reg.timesForProblem256x68x68_128_3
+working file  Reg.timesForProblem128x136x136_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x136x136_64_3
+working file  train_set_3_skernel.csv
+working file  Reg.timesForProblem32x544x544_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x544x544_3_3
+working file  test_set_3_skernel.csv
+working file  Reg.timesForProblem32x108x108_32_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_32_3
+working file  Reg.timesForProblem64x56x56_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x56x56_64_3
+working file  Reg.timesForProblem128x28x28_128_3.csv
+-------------------------shuffling  Reg.timesForProblem128x28x28_128_3
+Done shuffling
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem64x54x54_64_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem256x14x14_256_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem512x34x34_256_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem64x272x272_32_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem32x108x108_3_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem64x54x54_32_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem256x68x68_128_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem128x136x136_64_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem32x544x544_3_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem32x108x108_32_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem64x56x56_64_3
+~~ alt :  1
+Rank -------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem128x28x28_128_3
+========= model building ..... ==============
+working path  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset
+alt : 1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/train_set_c_rskernel
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/test_set_rskernel
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.0
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.0
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.0
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.0
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.0
+alt : 2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/train_set_c_rskernel
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/test_set_rskernel
+[RandomForestRegressor] seed 17  : The average indp-test avg 8.229273659924055e-05
+[RandomForestRegressor] seed 43  : The average indp-test avg 8.229273659924055e-05
+[RandomForestRegressor] seed 137  : The average indp-test avg 8.229273659924055e-05
+[RandomForestRegressor] seed 269  : The average indp-test avg 8.229273659924055e-05
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.0
+working path  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset
+alt : 1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/train_set_c_rskernel_stride2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/test_set_c_rskernel_stride2
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.02119213968601597
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.02119213968601597
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.02119213968601597
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.02119213968601597
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.02119213968601597
+alt : 2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/train_set_c_rskernel_stride2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/test_set_c_rskernel_stride2
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.05276908244759992
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.0011247723674970968
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.05276908244759992
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.05276908244759992
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.0011247723674970968
+working path  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset
+alt : 1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/train_set_3_skernel
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/test_set_3_skernel
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.13125
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.13125
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.13125
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.13125
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.0
+alt : 2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/train_set_3_skernel
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/test_set_3_skernel
+[RandomForestRegressor] seed 17  : The average indp-test avg 0.0
+[RandomForestRegressor] seed 43  : The average indp-test avg 0.0
+[RandomForestRegressor] seed 137  : The average indp-test avg 0.0
+[RandomForestRegressor] seed 269  : The average indp-test avg 0.0
+[RandomForestRegressor] seed 811  : The average indp-test avg 0.0
+========= DONE model building ..... ==============
+========= Predicting ..... ==============
+working path  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3odd_dataset
+working file  Reg.timesForProblem128x27x27_128_3.csv
+-------------------------shuffling  Reg.timesForProblem128x27x27_128_3
+working file  test_set_rskernel.csv
+working file  Reg.timesForProblem512x7x7_512_3.csv
+-------------------------shuffling  Reg.timesForProblem512x7x7_512_3
+working file  Reg.timesForProblem1024x17x17_512_3.csv
+-------------------------shuffling  Reg.timesForProblem1024x17x17_512_3
+working file  Reg.timesForProblem128x27x27_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x27x27_64_3
+working file  train_set_c_rskernel_test.csv
+working file  train_set_c_rskernel.csv
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_128_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_128_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_64_3
+working path  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset
+working file  Reg.timesForProblem512x7x7_256_3.csv
+-------------------------shuffling  Reg.timesForProblem512x7x7_256_3
+working file  test_set_c_rskernel_stride2.csv
+working file  Reg.timesForProblem128x28x28_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x28x28_64_3
+working file  train_set_c_rskernel_stride2_test.csv
+working file  train_set_c_rskernel_stride2.csv
+working file  Reg.timesForProblem64x112x112_3_7.csv
+-------------------------shuffling  Reg.timesForProblem64x112x112_3_7
+working file  Reg.timesForProblem256x14x14_128_3.csv
+-------------------------shuffling  Reg.timesForProblem256x14x14_128_3
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/Reg.timesForProblem512x7x7_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/Reg.timesForProblem128x28x28_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/Reg.timesForProblem64x112x112_3_7
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/Reg.timesForProblem256x14x14_128_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/Reg.timesForProblem512x7x7_256_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/Reg.timesForProblem128x28x28_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/Reg.timesForProblem64x112x112_3_7
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_st2_dataset/Reg.timesForProblem256x14x14_128_3
+working path  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset
+working file  Reg.timesForProblem64x54x54_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_64_3
+working file  Reg.timesForProblem256x14x14_256_3.csv
+-------------------------shuffling  Reg.timesForProblem256x14x14_256_3
+working file  test_set_rskernel.csv
+working file  Reg.timesForProblem512x34x34_256_3.csv
+-------------------------shuffling  Reg.timesForProblem512x34x34_256_3
+working file  Reg.timesForProblem64x272x272_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x272x272_32_3
+working file  Reg.timesForProblem32x108x108_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_3_3
+working file  Reg.timesForProblem64x54x54_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_32_3
+working file  Reg.timesForProblem256x68x68_128_3.csv
+-------------------------shuffling  Reg.timesForProblem256x68x68_128_3
+working file  Reg.timesForProblem128x136x136_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x136x136_64_3
+working file  Reg.timesForProblem32x544x544_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x544x544_3_3
+working file  Reg.timesForProblem32x108x108_32_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_32_3
+working file  Reg.timesForProblem64x56x56_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x56x56_64_3
+working file  train_set_c_rskernel_test.csv
+working file  train_set_c_rskernel.csv
+working file  Reg.timesForProblem128x28x28_128_3.csv
+-------------------------shuffling  Reg.timesForProblem128x28x28_128_3
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem256x14x14_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem512x34x34_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem64x272x272_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_3_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem256x68x68_128_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem128x136x136_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem32x544x544_3_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem64x56x56_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem128x28x28_128_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem256x14x14_256_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem512x34x34_256_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem64x272x272_32_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_3_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_32_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem256x68x68_128_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem128x136x136_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem32x544x544_3_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_32_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem64x56x56_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_rs3_half_dataset/Reg.timesForProblem128x28x28_128_3
+working path  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset
+working file  Reg.timesForProblem64x54x54_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_64_3
+working file  Reg.timesForProblem256x14x14_256_3.csv
+-------------------------shuffling  Reg.timesForProblem256x14x14_256_3
+working file  Reg.timesForProblem512x34x34_256_3.csv
+-------------------------shuffling  Reg.timesForProblem512x34x34_256_3
+working file  Reg.timesForProblem64x272x272_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x272x272_32_3
+working file  train_set_3_skernel_test.csv
+working file  Reg.timesForProblem32x108x108_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_3_3
+working file  Reg.timesForProblem64x54x54_32_3.csv
+-------------------------shuffling  Reg.timesForProblem64x54x54_32_3
+working file  Reg.timesForProblem256x68x68_128_3.csv
+-------------------------shuffling  Reg.timesForProblem256x68x68_128_3
+working file  Reg.timesForProblem128x136x136_64_3.csv
+-------------------------shuffling  Reg.timesForProblem128x136x136_64_3
+working file  train_set_3_skernel.csv
+working file  Reg.timesForProblem32x544x544_3_3.csv
+-------------------------shuffling  Reg.timesForProblem32x544x544_3_3
+working file  test_set_3_skernel.csv
+working file  Reg.timesForProblem32x108x108_32_3.csv
+-------------------------shuffling  Reg.timesForProblem32x108x108_32_3
+working file  Reg.timesForProblem64x56x56_64_3.csv
+-------------------------shuffling  Reg.timesForProblem64x56x56_64_3
+working file  Reg.timesForProblem128x28x28_128_3.csv
+-------------------------shuffling  Reg.timesForProblem128x28x28_128_3
+Done shuffling
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem64x54x54_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem256x14x14_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem512x34x34_256_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem64x272x272_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem32x108x108_3_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem64x54x54_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem256x68x68_128_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem128x136x136_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem32x544x544_3_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem32x108x108_32_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem64x56x56_64_3
+~~ alt :  1
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem128x28x28_128_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem64x54x54_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem256x14x14_256_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem512x34x34_256_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem64x272x272_32_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem32x108x108_3_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem64x54x54_32_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem256x68x68_128_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem128x136x136_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem32x544x544_3_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem32x108x108_32_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem64x56x56_64_3
+~~ alt :  2
+-------------------------handling  /home/yufan/AE-PACT/new-halfhalf-v100/dir_s3_half_dataset/Reg.timesForProblem128x28x28_128_3
+========= Predicting DONE..... ==============
+============== final result :: ============
+============== Pure ANA :: ============
+[30, 'defo1', -1, 0.0, 0.010255, 0.010255, 1]
+[30, 'defo2', -1, 0.15805705474171172, 0.04506, 0.03891, 1]
+[30, 'defo3', -1, 0.31874999999999987, 0.03376, 0.0256, 1]
+[30, 'defo4', -1, 0.5505906522855675, 0.06038, 0.03894, 1]
+[30, 'defo5', -1, 0.5003756574004509, 0.03994, 0.02662, 1]
+[30, 'defo6', -1, 0.06289385889039907, 0.04301, 0.040465, 1]
+[30, 'res1*', -1, 0.023620258914376545, 0.04507, 0.04403, 2]
+[30, 'res2', -1, 0.8145865434001026, 0.07066, 0.03894, 1]
+[30, 'res4*', -1, 0.27474747474747463, 0.03786, 0.0297, 2]
+[30, 'res6', -1, 1.8457686529794688, 0.11366, 0.03994, 1]
+[30, 'res7*', -1, 0.017820424948595037, 0.0297, 0.029179999999999998, 2]
+[30, 'res9', -1, 1.3040909090909092, 0.10138, 0.044, 1]
+[30, 'res10*', -1, 0.472327726532827, 0.05427, 0.03686, 2]
+[30, 'res12', -1, 0.05416996569015568, 0.079885, 0.07578, 1]
+[30, 'yolo0', -1, 0.16415327564894933, 0.09418, 0.0809, 1]
+[30, 'yolo2', -1, 0.18278707937838187, 0.32461, 0.274445, 1]
+[30, 'yolo4', -1, 0.057516317592324444, 0.31027, 0.29339499999999996, 1]
+[30, 'yolo8', -1, 0.07922132336352207, 0.33485, 0.31027, 1]
+[30, 'yolo12', -1, 0.016282203725723525, 0.32051, 0.31537499999999996, 1]
+[30, 'yolo18', -1, 0.0, 0.33024, 0.33024, 1]
+============== Pure ML :: ============
+[30, 'defo1', 1, 0.0, 10.255, 10.255, 1]
+[30, 'defo2', 1, 0.052685684913904, 40.96, 38.91, 1]
+[30, 'defo3', 1, 0.03867187499999994, 26.59, 25.6, 1]
+[30, 'defo4', 1, 0.07806882383153567, 41.980000000000004, 38.940000000000005, 1]
+[30, 'defo5', 1, 0.0, 26.62, 26.62, 1]
+[30, 'defo6', 1, 0.0, 40.465, 40.465, 1]
+[30, 'res1*', 1, 0.11628435157846917, 49.15, 44.03, 2]
+[30, 'res2', 1, 0.10451977401129925, 43.01, 38.940000000000005, 1]
+[30, 'res4*', 1, 0.1033670033670035, 32.77, 29.7, 2]
+[30, 'res6', 1, 0.025162744116174144, 40.945, 39.940000000000005, 1]
+[30, 'res7*', 1, 0.052775873886223665, 30.720000000000002, 29.179999999999996, 2]
+[30, 'res9', 1, 0.0, 44.0, 44.0, 1]
+[30, 'res10*', 1, 0.027536625067824217, 37.875, 36.86, 2]
+[30, 'res12', 1, 0.0, 75.78, 75.78, 1]
+[30, 'yolo0', 1, 0.0, 80.9, 80.9, 1]
+[30, 'yolo2', 1, 0.0, 274.445, 274.445, 1]
+[30, 'yolo4', 1, 0.0, 293.395, 293.395, 1]
+[30, 'yolo8', 1, 0.0, 310.27, 310.27, 1]
+[30, 'yolo12', 1, 0.0, 315.37499999999994, 315.37499999999994, 1]
+[30, 'yolo18', 1, 0.0, 330.23999999999995, 330.23999999999995, 1]
+============== Pure ext_HYB :: ============
+[30, 'defo1', 2, 0.0, 10.255, 10.255, 1]
+[30, 'defo2', 2, 0.026471344127473873, 39.940000000000005, 38.91, 1]
+[30, 'defo3', 2, 0.0, 25.6, 25.6, 1]
+[30, 'defo4', 2, 0.025680534155110422, 39.940000000000005, 38.940000000000005, 1]
+[30, 'defo5', 2, 0.0, 26.62, 26.62, 1]
+[30, 'defo6', 2, 0.0, 40.465, 40.465, 1]
+[30, 'res1*', 2, 0.0, 44.03, 44.03, 2]
+[30, 'res2', 2, 0.07806882383153567, 41.980000000000004, 38.940000000000005, 1]
+[30, 'res4*', 2, 0.0, 29.7, 29.7, 2]
+[30, 'res6', 2, 0.05107661492238355, 41.980000000000004, 39.940000000000005, 1]
+[30, 'res7*', 2, 0.0, 29.179999999999996, 29.179999999999996, 2]
+[30, 'res9', 2, 0.0, 44.0, 44.0, 1]
+[30, 'res10*', 2, 0.0, 36.86, 36.86, 2]
+[30, 'res12', 2, 0.0, 75.78, 75.78, 1]
+[30, 'yolo0', 2, 0.0, 80.9, 80.9, 1]
+[30, 'yolo2', 2, 0.0, 274.445, 274.445, 1]
+[30, 'yolo4', 2, 0.0, 293.395, 293.395, 1]
+[30, 'yolo8', 2, 0.0, 310.27, 310.27, 1]
+[30, 'yolo12', 2, 0.0, 315.37499999999994, 315.37499999999994, 1]
+[30, 'yolo18', 2, 0.0, 330.23999999999995, 330.23999999999995, 1]
