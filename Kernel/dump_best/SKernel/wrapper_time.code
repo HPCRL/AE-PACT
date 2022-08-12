@@ -1,0 +1,63 @@
+void conv_kernel_wrapper(const float *Input,
+    const float *Kernel, float *Output, int itr) {
+    cudaEvent_t start;
+    CHECK(cudaEventCreate(&start));
+    cudaEvent_t stop;
+    CHECK(cudaEventCreate(&stop));
+    float msec = 0.0f;
+    float *dev_Input;
+    float *dev_Kernel;
+    float *dev_Output;
+
+    CHECK(cudaMalloc(&dev_Kernel, sizeof(float) * N_F * N_C * N_R * N_S));
+    CHECK(cudaMemcpy(dev_Kernel, Kernel, sizeof(float) * N_F * N_C * N_R * N_S, cudaMemcpyHostToDevice));
+
+    CHECK(cudaMalloc(&dev_Input, sizeof(float) * N_B * N_C * N_H * N_W));
+    CHECK(cudaMemcpy(dev_Input, Input, sizeof(float) * N_B * N_C * N_H * N_W, cudaMemcpyHostToDevice));
+
+    CHECK(cudaMalloc(&dev_Output, sizeof(float) * N_B * N_F * N_Y * N_X));
+    CHECK(cudaMemset(dev_Output, 0, sizeof(float) * N_B * N_F * N_Y * N_X));
+    /*call conv_kernel() */
+    dim3 size_block(B_k*W_k, B_w*W_w, B_h*W_h);
+    dim3 size_grid((N_F / (T_k*size_block.x)) * CBlockMult, CEIL(W , (T_w * size_block.y)), CEIL(H, (T_h * size_block.z)) );
+    printf("warmup....\n");
+    printf("block shape <%d, %d, %d>\n", B_k*W_k, B_w*W_w, B_h*W_h);
+    printf("grid shape <%d, %d, %d>\n",  (N_F / (T_k*size_block.x)) * CBlockMult, CEIL(W , (T_w * size_block.y)), CEIL(H, (T_h * size_block.z)) );
+    printf("%d %d %d %d %d | %d %d %d %d %d %d %d %d %d \n", K, H, W, C, R, T_h, T_w, T_k, W_h, W_w, W_k, B_h, B_w, B_k);
+    conv_kernel <<< size_grid, size_block >>>(dev_Input, dev_Kernel, dev_Output);
+    
+    CHECK(cudaMemcpy(Output, dev_Output, sizeof(float) * N_B * N_F * N_X * N_Y, cudaMemcpyDeviceToHost));
+    CHECK(cudaFree(dev_Input));
+    CHECK(cudaFree(dev_Kernel));
+    CHECK(cudaFree(dev_Output));
+
+
+    double *time_arr = (double *)malloc(itr * sizeof(double));
+    for (int j = 1; j < itr; j++) {
+        CHECK(cudaMalloc(&dev_Kernel, sizeof(float) * N_F * N_C * N_R * N_S));
+        CHECK(cudaMemcpy(dev_Kernel, Kernel+j*N_F * N_C * N_R * N_S, sizeof(float) * N_F * N_C * N_R * N_S, cudaMemcpyHostToDevice));
+        CHECK(cudaMalloc(&dev_Input, sizeof(float) * N_B * N_C * N_H * N_W));
+        CHECK(cudaMemcpy(dev_Input, Input+j*N_B * N_C * N_H * N_W, sizeof(float) * N_B * N_C * N_H * N_W, cudaMemcpyHostToDevice));
+        CHECK(cudaMalloc(&dev_Output, sizeof(float) * N_B * N_F * N_Y * N_X));
+        CHECK(cudaMemset(dev_Output, 0, sizeof(float) * N_B * N_F * N_Y * N_X));
+        /* Record the start event*/
+        CHECK(cudaEventRecord(start, NULL));
+        conv_kernel <<< size_grid, size_block >>>(dev_Input, dev_Kernel, dev_Output);
+        /* Record the end event */
+        CHECK(cudaEventRecord(stop, NULL));
+        /* Wait for the stop event to complete*/
+        CHECK(cudaEventSynchronize(stop));
+        float msec = 0.0f;
+        cudaEventElapsedTime(&msec, start, stop);
+        time_arr[j] = msec;
+        CHECK(cudaFree(dev_Input));
+        CHECK(cudaFree(dev_Kernel));
+        CHECK(cudaFree(dev_Output));
+    }
+
+    for (int j = 1; j < itr; j++) {   
+        printf("time %0.5lf \n", time_arr[j]);
+    }
+
+    return;
+}

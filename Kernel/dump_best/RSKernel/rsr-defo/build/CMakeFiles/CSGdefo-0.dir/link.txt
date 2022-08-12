@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/CSGdefo-0.dir/main_withcheck.cpp.o" "CMakeFiles/CSGdefo-0.dir/CSGdefo-0.cu.o" -o CSGdefo-0   -L/home/yufan/cuda/targets/x86_64-linux/lib/stubs  -L/home/yufan/cuda/targets/x86_64-linux/lib  -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

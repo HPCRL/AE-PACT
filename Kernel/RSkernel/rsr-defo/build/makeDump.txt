@@ -1,0 +1,15 @@
+Consolidate compiler generated dependencies of target CSG32x108x108_3_3
+[ 33%] Building CXX object CMakeFiles/CSG32x108x108_3_3.dir/main_withcheck.cpp.o
+[ 66%] Building CUDA object CMakeFiles/CSG32x108x108_3_3.dir/CSG32x108x108_3_3.cu.o
+/home/yufan/AE-PACT/Kernel/RSkernel/rsr-defo/common.h(65): warning: variable "ii" was declared but never referenced
+
+/home/yufan/AE-PACT/Kernel/RSkernel/rsr-defo/common.h(85): warning: variable "ii" was declared but never referenced
+
+/home/yufan/AE-PACT/Kernel/RSkernel/rsr-defo/common.h(132): warning: variable "epsilon" was declared but never referenced
+
+/home/yufan/AE-PACT/Kernel/RSkernel/rsr-defo/CSG32x108x108_3_3.cu(148): warning: variable "msec" was declared but never referenced
+
+nvcc error   : 'cicc' died due to signal 2 
+make[2]: *** [CMakeFiles/CSG32x108x108_3_3.dir/build.make:90: CMakeFiles/CSG32x108x108_3_3.dir/CSG32x108x108_3_3.cu.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/CSG32x108x108_3_3.dir/all] Interrupt
+make: *** [Makefile:91: all] Interrupt

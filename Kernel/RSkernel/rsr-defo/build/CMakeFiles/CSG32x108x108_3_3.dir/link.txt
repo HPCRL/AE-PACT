@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/CSG32x108x108_3_3.dir/main_withcheck.cpp.o CMakeFiles/CSG32x108x108_3_3.dir/CSG32x108x108_3_3.cu.o -o CSG32x108x108_3_3   -L/home/yufan/cuda/targets/x86_64-linux/lib/stubs  -L/home/yufan/cuda/targets/x86_64-linux/lib  -lcudadevrt -lcudart_static -lrt -lpthread -ldl 
