@@ -82,7 +82,7 @@ import pandas as pd
 
 if __name__ == '__main__':
 
-    pd.set_option('max_columns', None)
+    #pd.set_option('max_columns', None)
     topN = int(sys.argv[1])
     initN = int(sys.argv[2])
     step = int(sys.argv[3])
@@ -293,7 +293,7 @@ if __name__ == '__main__':
         if tup[0] == 30:
             print(tup)
 
-    print("============== Pure ext_HYB :: ============")
+    print("============== HYB :: ============")
     for tup in HYB:
         if tup[0] == 30:
             print(tup)

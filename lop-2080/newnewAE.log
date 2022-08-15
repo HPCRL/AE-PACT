@@ -1,4 +1,4 @@
-working path  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3odd_dataset
+working path  /home/yufan/AE-PACT/lop-2080/dir_rs3odd_dataset
 working file  Reg.timesForProblem128x27x27_128_3.csv
 -------------------------shuffling  Reg.timesForProblem128x27x27_128_3
 working file  test_set_rskernel.csv
@@ -12,14 +12,14 @@ working file  train_set_c_rskernel_test.csv
 working file  train_set_c_rskernel.csv
 Done shuffling
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_128_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_128_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_64_3
-working path  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs1odd_dataset
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_64_3
+working path  /home/yufan/AE-PACT/lop-2080/dir_rs1odd_dataset
 working file  test_set_rskernel.csv
 working file  Reg.timesForProblem512x17x17_1024_1.csv
 -------------------------shuffling  Reg.timesForProblem512x17x17_1024_1
@@ -27,8 +27,8 @@ working file  train_set_c_rskernel_test.csv
 working file  train_set_c_rskernel.csv
 Done shuffling
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs1odd_dataset/Reg.timesForProblem512x17x17_1024_1
-working path  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs1odd_dataset/Reg.timesForProblem512x17x17_1024_1
+working path  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset
 working file  Reg.timesForProblem512x7x7_256_3.csv
 -------------------------shuffling  Reg.timesForProblem512x7x7_256_3
 working file  test_set_c_rskernel_stride2.csv
@@ -42,14 +42,14 @@ working file  Reg.timesForProblem256x14x14_128_3.csv
 -------------------------shuffling  Reg.timesForProblem256x14x14_128_3
 Done shuffling
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/Reg.timesForProblem512x7x7_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/Reg.timesForProblem512x7x7_256_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/Reg.timesForProblem128x28x28_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/Reg.timesForProblem128x28x28_64_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/Reg.timesForProblem64x112x112_3_7
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/Reg.timesForProblem64x112x112_3_7
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/Reg.timesForProblem256x14x14_128_3
-working path  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/Reg.timesForProblem256x14x14_128_3
+working path  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset
 working file  Reg.timesForProblem64x54x54_64_3.csv
 -------------------------shuffling  Reg.timesForProblem64x54x54_64_3
 working file  Reg.timesForProblem256x14x14_256_3.csv
@@ -79,30 +79,30 @@ working file  Reg.timesForProblem128x28x28_128_3.csv
 -------------------------shuffling  Reg.timesForProblem128x28x28_128_3
 Done shuffling
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_64_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem256x14x14_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem256x14x14_256_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem512x34x34_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem512x34x34_256_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem64x272x272_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem64x272x272_32_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_3_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_3_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_32_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem256x68x68_128_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem256x68x68_128_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem128x136x136_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem128x136x136_64_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem32x544x544_3_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem32x544x544_3_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_32_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem64x56x56_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem64x56x56_64_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem128x28x28_128_3
-working path  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem128x28x28_128_3
+working path  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset
 working file  Reg.timesForProblem64x54x54_64_3.csv
 -------------------------shuffling  Reg.timesForProblem64x54x54_64_3
 working file  Reg.timesForProblem256x14x14_256_3.csv
@@ -132,76 +132,76 @@ working file  Reg.timesForProblem128x28x28_128_3.csv
 -------------------------shuffling  Reg.timesForProblem128x28x28_128_3
 Done shuffling
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem64x54x54_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem64x54x54_64_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem256x14x14_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem256x14x14_256_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem512x34x34_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem512x34x34_256_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem64x272x272_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem64x272x272_32_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem32x108x108_3_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem32x108x108_3_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem64x54x54_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem64x54x54_32_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem256x68x68_128_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem256x68x68_128_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem128x136x136_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem128x136x136_64_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem32x544x544_3_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem32x544x544_3_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem32x108x108_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem32x108x108_32_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem64x56x56_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem64x56x56_64_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem128x28x28_128_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem128x28x28_128_3
 ========= model building ..... ==============
-working path  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset
+working path  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset
 alt : 1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/train_set_c_rskernel
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/test_set_rskernel
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/train_set_c_rskernel
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/test_set_rskernel
 [RandomForestRegressor] seed 17  : The average indp-test avg 0.005847933188222708
 [RandomForestRegressor] seed 43  : The average indp-test avg 0.005847933188222708
 [RandomForestRegressor] seed 137  : The average indp-test avg 0.005847933188222708
 [RandomForestRegressor] seed 269  : The average indp-test avg 0.005847933188222708
 [RandomForestRegressor] seed 811  : The average indp-test avg 0.005847933188222708
 alt : 2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/train_set_c_rskernel
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/test_set_rskernel
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/train_set_c_rskernel
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/test_set_rskernel
 [RandomForestRegressor] seed 17  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 43  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 137  : The average indp-test avg 0.003133599146403107
 [RandomForestRegressor] seed 269  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 811  : The average indp-test avg 0.003133599146403107
-working path  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset
+working path  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset
 alt : 1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/train_set_c_rskernel_stride2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/test_set_c_rskernel_stride2
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/train_set_c_rskernel_stride2
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/test_set_c_rskernel_stride2
 [RandomForestRegressor] seed 17  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 43  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 137  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 269  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 811  : The average indp-test avg 0.0
 alt : 2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/train_set_c_rskernel_stride2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/test_set_c_rskernel_stride2
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/train_set_c_rskernel_stride2
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/test_set_c_rskernel_stride2
 [RandomForestRegressor] seed 17  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 43  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 137  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 269  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 811  : The average indp-test avg 0.0
-working path  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset
+working path  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset
 alt : 1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/train_set_3_skernel
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/test_set_3_skernel
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/train_set_3_skernel
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/test_set_3_skernel
 [RandomForestRegressor] seed 17  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 43  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 137  : The average indp-test avg 0.03501945525291829
 [RandomForestRegressor] seed 269  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 811  : The average indp-test avg 0.03501945525291829
 alt : 2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/train_set_3_skernel
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/test_set_3_skernel
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/train_set_3_skernel
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/test_set_3_skernel
 [RandomForestRegressor] seed 17  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 43  : The average indp-test avg 0.0
 [RandomForestRegressor] seed 137  : The average indp-test avg 0.0
@@ -209,7 +209,7 @@ alt : 2
 [RandomForestRegressor] seed 811  : The average indp-test avg 0.0
 ========= DONE model building ..... ==============
 ========= Predicting ..... ==============
-working path  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3odd_dataset
+working path  /home/yufan/AE-PACT/lop-2080/dir_rs3odd_dataset
 working file  Reg.timesForProblem128x27x27_128_3.csv
 -------------------------shuffling  Reg.timesForProblem128x27x27_128_3
 working file  test_set_rskernel.csv
@@ -223,22 +223,22 @@ working file  train_set_c_rskernel_test.csv
 working file  train_set_c_rskernel.csv
 Done shuffling
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_128_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_128_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_64_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_128_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_128_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3odd_dataset/Reg.timesForProblem512x7x7_512_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3odd_dataset/Reg.timesForProblem1024x17x17_512_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_64_3
-working path  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3odd_dataset/Reg.timesForProblem128x27x27_64_3
+working path  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset
 working file  Reg.timesForProblem512x7x7_256_3.csv
 -------------------------shuffling  Reg.timesForProblem512x7x7_256_3
 working file  test_set_c_rskernel_stride2.csv
@@ -252,22 +252,22 @@ working file  Reg.timesForProblem256x14x14_128_3.csv
 -------------------------shuffling  Reg.timesForProblem256x14x14_128_3
 Done shuffling
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/Reg.timesForProblem512x7x7_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/Reg.timesForProblem512x7x7_256_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/Reg.timesForProblem128x28x28_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/Reg.timesForProblem128x28x28_64_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/Reg.timesForProblem64x112x112_3_7
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/Reg.timesForProblem64x112x112_3_7
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/Reg.timesForProblem256x14x14_128_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/Reg.timesForProblem256x14x14_128_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/Reg.timesForProblem512x7x7_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/Reg.timesForProblem512x7x7_256_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/Reg.timesForProblem128x28x28_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/Reg.timesForProblem128x28x28_64_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/Reg.timesForProblem64x112x112_3_7
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/Reg.timesForProblem64x112x112_3_7
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_st2_dataset/Reg.timesForProblem256x14x14_128_3
-working path  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_st2_dataset/Reg.timesForProblem256x14x14_128_3
+working path  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset
 working file  Reg.timesForProblem64x54x54_64_3.csv
 -------------------------shuffling  Reg.timesForProblem64x54x54_64_3
 working file  Reg.timesForProblem256x14x14_256_3.csv
@@ -297,54 +297,54 @@ working file  Reg.timesForProblem128x28x28_128_3.csv
 -------------------------shuffling  Reg.timesForProblem128x28x28_128_3
 Done shuffling
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_64_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem256x14x14_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem256x14x14_256_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem512x34x34_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem512x34x34_256_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem64x272x272_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem64x272x272_32_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_3_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_3_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_32_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem256x68x68_128_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem256x68x68_128_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem128x136x136_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem128x136x136_64_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem32x544x544_3_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem32x544x544_3_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_32_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem64x56x56_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem64x56x56_64_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem128x28x28_128_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem128x28x28_128_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_64_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem256x14x14_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem256x14x14_256_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem512x34x34_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem512x34x34_256_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem64x272x272_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem64x272x272_32_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_3_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_3_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem64x54x54_32_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem256x68x68_128_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem256x68x68_128_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem128x136x136_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem128x136x136_64_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem32x544x544_3_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem32x544x544_3_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem32x108x108_32_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem64x56x56_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem64x56x56_64_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_rs3_half_dataset/Reg.timesForProblem128x28x28_128_3
-working path  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_rs3_half_dataset/Reg.timesForProblem128x28x28_128_3
+working path  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset
 working file  Reg.timesForProblem64x54x54_64_3.csv
 -------------------------shuffling  Reg.timesForProblem64x54x54_64_3
 working file  Reg.timesForProblem256x14x14_256_3.csv
@@ -374,53 +374,53 @@ working file  Reg.timesForProblem128x28x28_128_3.csv
 -------------------------shuffling  Reg.timesForProblem128x28x28_128_3
 Done shuffling
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem64x54x54_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem64x54x54_64_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem256x14x14_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem256x14x14_256_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem512x34x34_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem512x34x34_256_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem64x272x272_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem64x272x272_32_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem32x108x108_3_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem32x108x108_3_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem64x54x54_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem64x54x54_32_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem256x68x68_128_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem256x68x68_128_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem128x136x136_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem128x136x136_64_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem32x544x544_3_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem32x544x544_3_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem32x108x108_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem32x108x108_32_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem64x56x56_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem64x56x56_64_3
 ~~ alt :  1
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem128x28x28_128_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem128x28x28_128_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem64x54x54_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem64x54x54_64_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem256x14x14_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem256x14x14_256_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem512x34x34_256_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem512x34x34_256_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem64x272x272_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem64x272x272_32_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem32x108x108_3_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem32x108x108_3_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem64x54x54_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem64x54x54_32_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem256x68x68_128_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem256x68x68_128_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem128x136x136_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem128x136x136_64_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem32x544x544_3_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem32x544x544_3_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem32x108x108_32_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem32x108x108_32_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem64x56x56_64_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem64x56x56_64_3
 ~~ alt :  2
--------------------------handling  /home/yufan/AE-PACT/new-halfhalf-2080/dir_s3_half_dataset/Reg.timesForProblem128x28x28_128_3
+-------------------------handling  /home/yufan/AE-PACT/lop-2080/dir_s3_half_dataset/Reg.timesForProblem128x28x28_128_3
 ========= Predicting DONE..... ==============
 ============== final result :: ============
 ============== Pure ANA :: ============
@@ -431,11 +431,11 @@ Done shuffling
 [30, 'defo5', -1, 0.27646129541864145, 0.0404, 0.03165, 1]
 [30, 'defo6', -1, 0.18763523956723344, 0.05763, 0.048525, 1]
 [30, 'res1*', -1, 0.0, 0.046704999999999997, 0.046704999999999997, 2]
-[30, 'res2', -1, 0.540349733898121, 0.07091, 0.046035, 1]
-[30, 'res4*', -1, 0.10141643059490085, 0.03888, 0.0353, 2]
+[30, 'res2', -1, 0.7360703812316713, 0.07991999999999999, 0.046035, 1]
+[30, 'res4*', -1, 0.07648725212464592, 0.038, 0.0353, 2]
 [30, 'res6', -1, 1.0548495709786032, 0.094595, 0.046035, 1]
 [30, 'res7*', -1, 0.010921310557266913, 0.0361, 0.03571, 2]
-[30, 'res9', -1, 1.2181449569183982, 0.10941, 0.049325, 1]
+[30, 'res9', -1, 0.9430309173846932, 0.09584, 0.049325, 1]
 [30, 'res10*', -1, 0.15182515694024648, 0.04954, 0.04301, 2]
 [30, 'res12', -1, 0.021448689246768255, 0.07072, 0.069235, 1]
 [30, 'yolo0', -1, 0.22393509127789035, 0.15084999999999998, 0.12325, 1]

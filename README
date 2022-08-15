@@ -1,11 +1,20 @@
-1. Performance 
+0. Setup environment for evaluation
+The required environment: conda and dependent packages
+-i) Create a conda virtual environment and activate it
+conda create --name pactae python=3.8
+conda activate pactae
+-ii) Install dependent packages inside the conda environment
+conda install numpy pandas six matplotlib
+pip3 install -U scikit-learn
+
+1. Performance chart
 run bash scripts under the root of the project
 -i) Run "bash gen_profile_duration_log.sh"
 Generate duration logs from raw nsight(ncu) results.
 Please double check if dlog has been generated. dlog contains intermediate result for generating the figure in the step ii)
 -ii) Run "bash all_fig.sh"
-The bash script generates 6 figures to show the throughtput speedup in 3 networks over two devices.
-
+The bash script generates 6 figures to show the throughput speedup in 3 networks over two devices.
+All result figures should be similar with Figure 1 and 2 of "PACT22_GPU_CNNOpt_Supplementry.pdf" in Round2.
 
 2. Execution time and Shared Memory correlation
 -i) Generate log file from profiling output and Run scripts
@@ -14,11 +23,13 @@ The bash script generates 6 figures to show the throughtput speedup in 3 network
 -ii) Check two log files ("sm-v100.log", "sm-2080.log") are generated;
     Run python script to generate correlation figures(2080SMWVansor/v100SMWVansor/2080SMWVcnnopt/v100SMWVcnnopt.pdf) and pearson's R
     "python SM_correlation.py "
+All result figures should be similar with Figure 4 of "pact22-paper178-second_round_revised_submission.pdf" version after Round1 rebuttal.
 
 3. LoP experiment
-Go to lop-v100/ and lop-2080/ and run "bash run.sh" to calculate LoP values.
+Go to lop-v100/ and run "bash run.sh" to calculate LoP values of comparison on v100 machine
+Go to lop-2080/ and run "bash run.sh" to calculate LoP values of comparison on 2080Ti machine
 The printout table shows LoP between AnalyticalModeling, MLModeling, and CNNOpt Hybrid modeling.
-The script takes around 20-30 min to produce LOP table and dominant time cost is to generate hybrid model and comaprison pure ML model.
+The script takes around 20-30 min to produce LOP table and dominant time cost is to generate hybrid model and comparison pure ML model.
 Here is the explanation of the printing result 
 the 2nd column shows the layer name;
 the 3rd column represents model id (AnalyticalModeling -1, MLModeling 1, and CNNOpt Hybrid 2)
@@ -27,9 +38,11 @@ the 4th column is the LopP
 
 
 [Optional] 
-For recollecting profile raw data 
+For recollecting profile raw data. We need additional software and hardware.
+The required software: nvcc 11.3, gcc 9.4, ncu(nsight), cudnn v8.2
+The required hardware: nvidia GPU 2080Ti, V100
+
 Under Ansor folder, we provides the source code and profiling harness in "Ansor/src_code_2080" and "Ansor/src_code_v100" for 2 machines.
-Since Ansor an is auto-tuning based tool, it generates different source code in different machines. 
 -i) Evaluator needs to change CMakelist.txt and set correct environment path
 -ii) Create a build/ folder and compile source codes to generate executables and double check if each problem size has one executable.
 -iii) Run p_tvm_all.sh to recollect profiling data 
@@ -42,3 +55,4 @@ Under cuDNN folder, we provides the source code and profiling harness in "cuDNN/
 -iii) Run cudnn_profile.sh to recollect profiling data 
 -iv) All new generated raw profiling data(c*-algo-*.csv) is under build/ folder
 -v) Copy *.csv and replace raw profiling data under "cuDNN/profile-*" corresponding to different machines
+

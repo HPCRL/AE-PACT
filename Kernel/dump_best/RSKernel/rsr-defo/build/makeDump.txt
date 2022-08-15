@@ -1,5 +1,5 @@
+Consolidate compiler generated dependencies of target CSGdefo-0
 [ 33%] Building CUDA object CMakeFiles/CSGdefo-0.dir/CSGdefo-0.cu.o
-[ 66%] Building CXX object CMakeFiles/CSGdefo-0.dir/main_withcheck.cpp.o
 /home/yufan/AE-PACT/Kernel/dump_best/RSKernel/rsr-defo/common.h(65): warning: variable "ii" was declared but never referenced
 
 /home/yufan/AE-PACT/Kernel/dump_best/RSKernel/rsr-defo/common.h(85): warning: variable "ii" was declared but never referenced
@@ -26,5 +26,5 @@ ptxas info    : Compiling entry function '_Z11conv_kernelPKfS0_Pf' for 'sm_70'
 ptxas info    : Function properties for _Z11conv_kernelPKfS0_Pf
     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
 ptxas info    : Used 80 registers, 3912 bytes smem, 376 bytes cmem[0]
-[100%] Linking CXX executable CSGdefo-0
+[ 66%] Linking CXX executable CSGdefo-0
 [100%] Built target CSGdefo-0
